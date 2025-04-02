@@ -1,68 +1,155 @@
 # Hardware Health Monitoring System
 
-A Django REST API for monitoring hardware health using machine learning.
+A comprehensive system for monitoring hardware health metrics with machine learning-based anomaly detection and fan monitoring capabilities.
 
 ## Features
 
-- Real-time hardware metrics collection using psutil
-- Anomaly detection with machine learning
-- Hardware issue identification and recommendations
-- Historical data tracking and visualization
-- REST API for integration with other systems
+- **Real-time Monitoring**: Collect and visualize CPU, memory, disk, and network usage metrics
+- **Fan Detection**: Monitor cooling system status using platform-specific techniques
+- **Anomaly Detection**: ML-powered detection of unusual hardware behavior
+- **System Analysis**: Evaluate hardware capabilities for gaming and development tasks
+- **Historical Data**: Track performance trends over time
+- **Recommendations**: Receive actionable suggestions for hardware issues
 
-## Setup
+## Backend Setup
 
-1. Clone the repository
-2. Install dependencies:
+The backend is built with Django and Django REST Framework.
+
+### Prerequisites
+
+- Python 3.9+
+- PowerShell (Windows) or lm-sensors (Linux)
+- Administrator access (for hardware sensor access)
+
+### Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/hardware-health-monitor.git
+   cd hardware-health-monitor
+   ```
+
+2. Create a virtual environment:
+   ```
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. Install dependencies:
    ```
    pip install -r requirements.txt
    ```
-3. Run migrations:
+
+4. Run migrations:
    ```
+   python manage.py makemigrations hardware_api
    python manage.py migrate
    ```
-4. Create a superuser:
+
+5. Create a superuser (optional):
    ```
    python manage.py createsuperuser
    ```
-5. Run the server:
+
+6. Set up the ML models directory:
+   ```
+   mkdir ml_models
+   ```
+
+### Running the Backend
+
+1. Start the Django development server:
    ```
    python manage.py runserver
    ```
 
-## Running the Monitor
+2. For continuous metric collection, run in a separate terminal:
+   ```
+   python manage.py monitor_hardware --interval 60
+   ```
 
-Start the hardware monitoring service:
+### Fan Detection Setup
 
-```
-python manage.py monitor_hardware --interval 60
-```
+For Windows systems:
+- No additional setup required as the application uses PowerShell for fan detection
+- For best results, run the server with administrator privileges
 
-Options:
-- `--interval`: Time in seconds between metric collections (default: 60)
-- `--train`: Train a new model before starting monitoring
+For Linux systems:
+- Install lm-sensors:
+  ```
+  sudo apt-get install lm-sensors
+  sudo sensors-detect --auto
+  ```
+
+## Frontend Setup
+
+The frontend is built with React + Vite.
+
+### Prerequisites
+
+- Node.js 14+
+- npm or yarn
+
+### Installation
+
+1. Navigate to the frontend directory:
+   ```
+   cd hardware-monitor-frontend
+   ```
+
+2. Install dependencies:
+   ```
+   npm install
+   # or
+   yarn
+   ```
+
+### Running the Frontend
+
+1. Start the development server:
+   ```
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+2. Access the application at:
+   ```
+   http://localhost:3000
+   ```
 
 ## API Endpoints
 
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/api/metrics/` | GET | List all system metrics |
-| `/api/metrics/latest/` | GET | Get the latest system metrics |
-| `/api/metrics/collect/` | POST | Collect and save current system metrics |
-| `/api/metrics/statistics/` | GET | Get statistics about system metrics |
-| `/api/issues/` | GET | List all hardware issues |
-| `/api/issues/unresolved/` | GET | Get all unresolved hardware issues |
-| `/api/issues/{id}/resolve/` | POST | Mark an issue as resolved |
-| `/api/training/` | GET | List all model training history |
-| `/api/training/train/` | POST | Train a new model |
-| `/api/training/latest/` | GET | Get the latest model training record |
-| `/api/dashboard/` | GET | Get dashboard summary data |
-| `/api/health/` | GET | Simple health check endpoint |
+| Endpoint | Description |
+|----------|-------------|
+| `/api/metrics/` | List all system metrics |
+| `/api/metrics/latest/` | Get the latest system metrics |
+| `/api/metrics/collect/` | Collect new metrics |
+| `/api/metrics/statistics/` | Get metrics statistics |
+| `/api/issues/` | List all hardware issues |
+| `/api/fans/` | Get cooling fan information |
+| `/api/system-info/` | Get detailed system information |
+| `/api/dashboard/` | Get dashboard summary |
+| `/api/training/train/` | Train the anomaly detection model |
 
-## Authentication
+## Troubleshooting
 
-All API endpoints except for the health check require authentication.
+### Fan Detection Issues
+
+- **No fan data**: Run the server with administrative privileges
+- **Incorrect fan speeds**: Verify your system exposes fan sensor data
+- **Error messages**: Check the server logs for specific error details
+
+### Anomaly Detection Issues
+
+- **Model training fails**: Ensure you have at least 50 metric samples collected
+- **False positives**: Retrain the model with more diverse system state samples
+- **No anomalies detected**: Adjust thresholds in hardware_monitor.py
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-MIT
+This project is licensed under the MIT License - see the LICENSE file for details.
