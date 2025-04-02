@@ -1,0 +1,10 @@
+[
+  {
+    "name": "CPU Fan",
+    "hardware": "CPU",
+    "type": "Fan",
+    "value": 2400,
+    "speed": "2400 RPM",
+    "status": "Active"
+  }
+]

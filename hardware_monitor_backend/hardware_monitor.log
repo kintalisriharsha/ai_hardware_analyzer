@@ -1,0 +1,1894 @@
+INFO 2025-04-01 22:56:30,854 autoreload 20172 6296 Watching for file changes with StatReloader
+INFO 2025-04-01 22:58:05,234 autoreload 20172 6296 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-01 22:58:06,480 autoreload 19856 10740 Watching for file changes with StatReloader
+WARNING 2025-04-01 22:58:09,114 log 19856 11268 Forbidden: /api/dashboard/
+WARNING 2025-04-01 22:58:09,115 log 19856 14268 Forbidden: /api/issues/unresolved/
+WARNING 2025-04-01 22:58:09,116 log 19856 1020 Forbidden: /api/metrics/latest/
+WARNING 2025-04-01 22:58:09,118 basehttp 19856 14268 "GET /api/issues/unresolved/ HTTP/1.1" 403 58
+WARNING 2025-04-01 22:58:09,119 basehttp 19856 11268 "GET /api/dashboard/ HTTP/1.1" 403 58
+WARNING 2025-04-01 22:58:09,120 basehttp 19856 1020 "GET /api/metrics/latest/ HTTP/1.1" 403 58
+WARNING 2025-04-01 22:58:37,583 log 19856 20264 Forbidden: /api/metrics/latest/
+WARNING 2025-04-01 22:58:37,585 log 19856 19224 Forbidden: /api/dashboard/
+WARNING 2025-04-01 22:58:37,586 basehttp 19856 20264 "GET /api/metrics/latest/ HTTP/1.1" 403 58
+WARNING 2025-04-01 22:58:37,589 log 19856 20444 Forbidden: /api/issues/unresolved/
+WARNING 2025-04-01 22:58:37,590 basehttp 19856 19224 "GET /api/dashboard/ HTTP/1.1" 403 58
+WARNING 2025-04-01 22:58:37,590 basehttp 19856 20444 "GET /api/issues/unresolved/ HTTP/1.1" 403 58
+WARNING 2025-04-01 22:59:07,587 log 19856 22500 Forbidden: /api/metrics/latest/
+WARNING 2025-04-01 22:59:07,587 log 19856 14792 Forbidden: /api/dashboard/
+WARNING 2025-04-01 22:59:07,587 basehttp 19856 14792 "GET /api/dashboard/ HTTP/1.1" 403 58
+WARNING 2025-04-01 22:59:07,587 basehttp 19856 22500 "GET /api/metrics/latest/ HTTP/1.1" 403 58
+WARNING 2025-04-01 22:59:07,587 log 19856 22408 Forbidden: /api/issues/unresolved/
+WARNING 2025-04-01 22:59:07,595 basehttp 19856 22408 "GET /api/issues/unresolved/ HTTP/1.1" 403 58
+INFO 2025-04-01 22:59:10,555 autoreload 19856 10740 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_monitor_project\settings.py changed, reloading.
+INFO 2025-04-01 22:59:11,460 autoreload 3328 12120 Watching for file changes with StatReloader
+WARNING 2025-04-01 22:59:45,457 log 3328 22364 Forbidden: /api/metrics/latest/
+WARNING 2025-04-01 22:59:45,457 log 3328 1872 Forbidden: /api/issues/unresolved/
+WARNING 2025-04-01 22:59:45,457 log 3328 6880 Forbidden: /api/dashboard/
+WARNING 2025-04-01 22:59:45,457 basehttp 3328 22364 "GET /api/metrics/latest/ HTTP/1.1" 403 58
+WARNING 2025-04-01 22:59:45,457 basehttp 3328 1872 "GET /api/issues/unresolved/ HTTP/1.1" 403 58
+WARNING 2025-04-01 22:59:45,457 basehttp 3328 6880 "GET /api/dashboard/ HTTP/1.1" 403 58
+WARNING 2025-04-01 22:59:45,464 log 3328 22364 Forbidden: /api/metrics/latest/
+WARNING 2025-04-01 22:59:45,466 log 3328 6880 Forbidden: /api/issues/unresolved/
+WARNING 2025-04-01 22:59:45,468 log 3328 1872 Forbidden: /api/dashboard/
+WARNING 2025-04-01 22:59:45,468 basehttp 3328 22364 "GET /api/metrics/latest/ HTTP/1.1" 403 58
+WARNING 2025-04-01 22:59:45,469 basehttp 3328 6880 "GET /api/issues/unresolved/ HTTP/1.1" 403 58
+WARNING 2025-04-01 22:59:45,470 basehttp 3328 1872 "GET /api/dashboard/ HTTP/1.1" 403 58
+WARNING 2025-04-01 23:00:15,691 log 3328 18548 Forbidden: /api/metrics/latest/
+WARNING 2025-04-01 23:00:15,701 basehttp 3328 18548 "GET /api/metrics/latest/ HTTP/1.1" 403 58
+WARNING 2025-04-01 23:00:15,699 log 3328 10516 Forbidden: /api/issues/unresolved/
+WARNING 2025-04-01 23:00:15,696 log 3328 15028 Forbidden: /api/dashboard/
+WARNING 2025-04-01 23:00:15,723 basehttp 3328 10516 "GET /api/issues/unresolved/ HTTP/1.1" 403 58
+WARNING 2025-04-01 23:00:15,724 basehttp 3328 15028 "GET /api/dashboard/ HTTP/1.1" 403 58
+INFO 2025-04-01 23:00:44,484 autoreload 3328 12120 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-01 23:00:45,419 autoreload 17856 10888 Watching for file changes with StatReloader
+INFO 2025-04-01 23:00:47,376 basehttp 17856 3212 "GET /api/metrics/latest/ HTTP/1.1" 200 345
+INFO 2025-04-01 23:00:47,847 basehttp 17856 3212 "GET /api/dashboard/ HTTP/1.1" 200 553
+INFO 2025-04-01 23:00:47,847 basehttp 17856 20552 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:00:56,838 autoreload 17856 10888 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-01 23:00:57,739 autoreload 17224 15552 Watching for file changes with StatReloader
+INFO 2025-04-01 23:01:15,301 basehttp 17224 22072 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:01:15,331 basehttp 17224 13368 "GET /api/metrics/latest/ HTTP/1.1" 200 345
+INFO 2025-04-01 23:01:16,078 basehttp 17224 4252 "GET /api/dashboard/ HTTP/1.1" 200 554
+INFO 2025-04-01 23:01:19,858 basehttp 17224 13368 "GET /api/metrics/?page=1&start_date=2025-03-25T17:31:19.765Z HTTP/1.1" 200 3508
+INFO 2025-04-01 23:01:19,860 basehttp 17224 22072 "GET /api/metrics/?page=1&start_date=2025-03-25T17:31:19.774Z HTTP/1.1" 200 3508
+INFO 2025-04-01 23:01:19,901 basehttp 17224 4252 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 670
+INFO 2025-04-01 23:01:19,921 basehttp 17224 4252 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 670
+INFO 2025-04-01 23:01:24,895 autoreload 17224 15552 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-01 23:01:25,779 autoreload 20932 14668 Watching for file changes with StatReloader
+INFO 2025-04-01 23:01:27,805 basehttp 20932 10740 "GET /api/metrics/latest/ HTTP/1.1" 200 345
+INFO 2025-04-01 23:01:28,106 basehttp 20932 10740 "GET /api/dashboard/ HTTP/1.1" 200 553
+INFO 2025-04-01 23:01:28,106 basehttp 20932 11852 "GET /api/metrics/latest/ HTTP/1.1" 200 345
+INFO 2025-04-01 23:01:28,227 basehttp 20932 10740 "GET /api/dashboard/ HTTP/1.1" 200 553
+INFO 2025-04-01 23:01:35,140 autoreload 20932 14668 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-01 23:01:36,230 autoreload 18204 21624 Watching for file changes with StatReloader
+INFO 2025-04-01 23:01:49,483 basehttp 18204 20496 "OPTIONS /api/training/train/ HTTP/1.1" 200 0
+INFO 2025-04-01 23:01:49,493 hardware_monitor 18204 20496 Starting model training
+WARNING 2025-04-01 23:01:49,498 hardware_monitor 18204 20496 Not enough training data: 10 samples
+ERROR 2025-04-01 23:01:49,498 log 18204 20496 Internal Server Error: /api/training/train/
+ERROR 2025-04-01 23:01:49,500 basehttp 18204 20496 "POST /api/training/train/ HTTP/1.1" 500 57
+INFO 2025-04-01 23:03:55,490 autoreload 18204 21624 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py changed, reloading.
+INFO 2025-04-01 23:03:57,183 autoreload 16200 15576 Watching for file changes with StatReloader
+INFO 2025-04-01 23:04:20,021 autoreload 16200 15576 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py changed, reloading.
+INFO 2025-04-01 23:04:21,206 autoreload 22432 6480 Watching for file changes with StatReloader
+INFO 2025-04-01 23:04:52,286 autoreload 22432 6480 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py changed, reloading.
+INFO 2025-04-01 23:04:54,106 autoreload 1964 14740 Watching for file changes with StatReloader
+INFO 2025-04-01 23:04:55,908 autoreload 1964 14740 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py changed, reloading.
+INFO 2025-04-01 23:04:57,006 autoreload 14204 18324 Watching for file changes with StatReloader
+INFO 2025-04-01 23:05:16,333 autoreload 14204 18324 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py changed, reloading.
+INFO 2025-04-01 23:05:17,201 autoreload 15668 10452 Watching for file changes with StatReloader
+INFO 2025-04-01 23:07:42,360 hardware_monitor 15668 21572 Starting model training
+WARNING 2025-04-01 23:07:42,398 hardware_monitor 15668 21572 Not enough training data: 10 samples
+ERROR 2025-04-01 23:07:42,405 log 15668 21572 Internal Server Error: /api/training/train/
+ERROR 2025-04-01 23:07:42,408 basehttp 15668 21572 "POST /api/training/train/ HTTP/1.1" 500 57
+INFO 2025-04-01 23:09:06,403 autoreload 15668 10452 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py changed, reloading.
+INFO 2025-04-01 23:09:08,330 autoreload 12688 14004 Watching for file changes with StatReloader
+INFO 2025-04-01 23:09:38,647 hardware_monitor 12688 21412 Starting model training
+ERROR 2025-04-01 23:09:38,855 hardware_monitor 12688 21412 Error training model: ModelTrainingHistory() got unexpected keyword arguments: 'samples', 'parameters', 'accuracy'
+ERROR 2025-04-01 23:09:38,979 hardware_monitor 12688 21412 Traceback (most recent call last):
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py", line 255, in train_model
+    ModelTrainingHistory.objects.create(
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 656, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: ModelTrainingHistory() got unexpected keyword arguments: 'samples', 'parameters', 'accuracy'
+
+ERROR 2025-04-01 23:09:38,984 log 12688 21412 Internal Server Error: /api/training/train/
+ERROR 2025-04-01 23:09:38,985 basehttp 12688 21412 "POST /api/training/train/ HTTP/1.1" 500 57
+INFO 2025-04-01 23:10:16,670 autoreload 12688 14004 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py changed, reloading.
+INFO 2025-04-01 23:10:17,867 autoreload 6720 16400 Watching for file changes with StatReloader
+INFO 2025-04-01 23:10:28,874 autoreload 6720 16400 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py changed, reloading.
+INFO 2025-04-01 23:10:30,170 autoreload 18860 10988 Watching for file changes with StatReloader
+INFO 2025-04-01 23:10:36,044 autoreload 18860 10988 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py changed, reloading.
+INFO 2025-04-01 23:10:37,000 autoreload 21132 15712 Watching for file changes with StatReloader
+INFO 2025-04-01 23:10:43,326 autoreload 21132 15712 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py changed, reloading.
+INFO 2025-04-01 23:10:44,394 autoreload 11320 2960 Watching for file changes with StatReloader
+INFO 2025-04-01 23:10:51,320 autoreload 11320 2960 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py changed, reloading.
+INFO 2025-04-01 23:10:52,261 autoreload 20868 19792 Watching for file changes with StatReloader
+INFO 2025-04-01 23:10:54,818 autoreload 20868 19792 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py changed, reloading.
+INFO 2025-04-01 23:10:55,517 autoreload 4524 21100 Watching for file changes with StatReloader
+INFO 2025-04-01 23:11:11,837 autoreload 4524 21100 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py changed, reloading.
+INFO 2025-04-01 23:11:12,720 autoreload 19236 19396 Watching for file changes with StatReloader
+INFO 2025-04-01 23:11:18,031 hardware_monitor 19236 16780 Starting model training
+WARNING 2025-04-01 23:11:18,034 hardware_monitor 19236 16780 Not enough training data: 10 samples
+ERROR 2025-04-01 23:11:18,036 log 19236 16780 Internal Server Error: /api/training/train/
+ERROR 2025-04-01 23:11:18,040 basehttp 19236 16780 "POST /api/training/train/ HTTP/1.1" 500 57
+INFO 2025-04-01 23:11:38,706 autoreload 19236 19396 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py changed, reloading.
+INFO 2025-04-01 23:11:39,630 autoreload 22228 13932 Watching for file changes with StatReloader
+INFO 2025-04-01 23:11:43,355 autoreload 22228 13932 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py changed, reloading.
+INFO 2025-04-01 23:11:44,217 autoreload 22408 21772 Watching for file changes with StatReloader
+INFO 2025-04-01 23:11:48,522 autoreload 22408 21772 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py changed, reloading.
+INFO 2025-04-01 23:11:49,542 autoreload 2880 13376 Watching for file changes with StatReloader
+INFO 2025-04-01 23:12:16,019 hardware_monitor 2880 18348 Starting model training
+WARNING 2025-04-01 23:12:16,023 hardware_monitor 2880 18348 Not enough training data: 10 samples
+ERROR 2025-04-01 23:12:16,024 log 2880 18348 Internal Server Error: /api/training/train/
+ERROR 2025-04-01 23:12:16,025 basehttp 2880 18348 "POST /api/training/train/ HTTP/1.1" 500 57
+INFO 2025-04-01 23:12:27,385 basehttp 2880 20316 "GET /api/metrics/?page=1&start_date=2025-03-25T17:42:26.968Z HTTP/1.1" 200 3508
+INFO 2025-04-01 23:12:27,386 basehttp 2880 19392 "GET /api/metrics/?page=1&start_date=2025-03-25T17:42:26.967Z HTTP/1.1" 200 3508
+INFO 2025-04-01 23:12:27,388 basehttp 2880 17940 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 670
+INFO 2025-04-01 23:12:27,423 basehttp 2880 17940 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 670
+INFO 2025-04-01 23:12:31,584 basehttp 2880 20440 "GET /api/metrics/latest/ HTTP/1.1" 200 345
+INFO 2025-04-01 23:12:31,584 basehttp 2880 20440 "GET /api/metrics/latest/ HTTP/1.1" 200 345
+INFO 2025-04-01 23:12:32,058 basehttp 2880 3740 "GET /api/dashboard/ HTTP/1.1" 200 553
+INFO 2025-04-01 23:12:32,190 basehttp 2880 3740 "GET /api/dashboard/ HTTP/1.1" 200 553
+ERROR 2025-04-01 23:12:32,401 log 2880 1836 Internal Server Error: /api/issues/unresolved/
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py", line 288, in unresolved
+    issues = self.get_queryset().filter(is_resolved=False).order_by('-created_at')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 2221, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'created_at' into field. Choices are: description, id, is_resolved, issue_type, metric, metric_id, recommendation, resolved_at, timestamp
+ERROR 2025-04-01 23:12:32,401 basehttp 2880 1836 "GET /api/issues/unresolved/ HTTP/1.1" 500 115832
+ERROR 2025-04-01 23:12:32,446 log 2880 3740 Internal Server Error: /api/issues/unresolved/
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py", line 288, in unresolved
+    issues = self.get_queryset().filter(is_resolved=False).order_by('-created_at')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 2221, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'created_at' into field. Choices are: description, id, is_resolved, issue_type, metric, metric_id, recommendation, resolved_at, timestamp
+ERROR 2025-04-01 23:12:32,457 basehttp 2880 3740 "GET /api/issues/unresolved/ HTTP/1.1" 500 115832
+INFO 2025-04-01 23:13:06,555 basehttp 2880 18460 "GET /api/metrics/latest/ HTTP/1.1" 200 345
+INFO 2025-04-01 23:13:06,558 basehttp 2880 18460 "GET /api/metrics/latest/ HTTP/1.1" 200 345
+ERROR 2025-04-01 23:13:06,575 log 2880 11328 Internal Server Error: /api/issues/unresolved/
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py", line 288, in unresolved
+    issues = self.get_queryset().filter(is_resolved=False).order_by('-created_at')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 2221, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'created_at' into field. Choices are: description, id, is_resolved, issue_type, metric, metric_id, recommendation, resolved_at, timestamp
+ERROR 2025-04-01 23:13:06,575 basehttp 2880 11328 "GET /api/issues/unresolved/ HTTP/1.1" 500 115832
+ERROR 2025-04-01 23:13:06,628 log 2880 18460 Internal Server Error: /api/issues/unresolved/
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py", line 288, in unresolved
+    issues = self.get_queryset().filter(is_resolved=False).order_by('-created_at')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 2221, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'created_at' into field. Choices are: description, id, is_resolved, issue_type, metric, metric_id, recommendation, resolved_at, timestamp
+ERROR 2025-04-01 23:13:06,628 basehttp 2880 18460 "GET /api/issues/unresolved/ HTTP/1.1" 500 115832
+INFO 2025-04-01 23:13:06,656 basehttp 2880 20964 "GET /api/dashboard/ HTTP/1.1" 200 553
+INFO 2025-04-01 23:13:06,770 basehttp 2880 20964 "GET /api/dashboard/ HTTP/1.1" 200 553
+INFO 2025-04-01 23:13:10,280 basehttp 2880 20964 "POST /api/metrics/collect/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:13:10,296 basehttp 2880 20964 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+ERROR 2025-04-01 23:13:10,329 log 2880 11328 Internal Server Error: /api/issues/unresolved/
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py", line 288, in unresolved
+    issues = self.get_queryset().filter(is_resolved=False).order_by('-created_at')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 2221, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'created_at' into field. Choices are: description, id, is_resolved, issue_type, metric, metric_id, recommendation, resolved_at, timestamp
+ERROR 2025-04-01 23:13:10,329 basehttp 2880 11328 "GET /api/issues/unresolved/ HTTP/1.1" 500 115832
+INFO 2025-04-01 23:13:10,461 basehttp 2880 18460 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-01 23:13:37,485 basehttp 2880 21060 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+ERROR 2025-04-01 23:13:37,554 log 2880 11104 Internal Server Error: /api/issues/unresolved/
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py", line 288, in unresolved
+    issues = self.get_queryset().filter(is_resolved=False).order_by('-created_at')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 2221, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'created_at' into field. Choices are: description, id, is_resolved, issue_type, metric, metric_id, recommendation, resolved_at, timestamp
+ERROR 2025-04-01 23:13:37,558 basehttp 2880 11104 "GET /api/issues/unresolved/ HTTP/1.1" 500 115832
+INFO 2025-04-01 23:13:37,622 basehttp 2880 21060 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-01 23:14:06,600 basehttp 2880 16076 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+ERROR 2025-04-01 23:14:06,623 log 2880 17332 Internal Server Error: /api/issues/unresolved/
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py", line 288, in unresolved
+    issues = self.get_queryset().filter(is_resolved=False).order_by('-created_at')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 2221, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'created_at' into field. Choices are: description, id, is_resolved, issue_type, metric, metric_id, recommendation, resolved_at, timestamp
+ERROR 2025-04-01 23:14:06,624 basehttp 2880 17332 "GET /api/issues/unresolved/ HTTP/1.1" 500 115832
+INFO 2025-04-01 23:14:06,707 basehttp 2880 2476 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-01 23:14:16,116 autoreload 2880 13376 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-01 23:14:19,522 autoreload 4776 14040 Watching for file changes with StatReloader
+INFO 2025-04-01 23:14:29,249 basehttp 4776 18028 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:14:29,249 basehttp 4776 18028 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:14:29,255 basehttp 4776 18188 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:14:29,258 basehttp 4776 18188 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:14:29,668 basehttp 4776 19888 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-01 23:14:29,797 basehttp 4776 19888 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-01 23:14:59,588 basehttp 4776 14408 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:14:59,596 basehttp 4776 3496 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:14:59,714 basehttp 4776 21516 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-01 23:15:12,204 basehttp 4776 9248 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:15:12,213 basehttp 4776 9248 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:15:12,326 basehttp 4776 15680 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-01 23:15:12,458 basehttp 4776 15680 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-01 23:15:12,806 basehttp 4776 9248 "GET /api/metrics/?page=1&start_date=2025-03-25T17:45:12.726Z HTTP/1.1" 200 3853
+INFO 2025-04-01 23:15:12,813 basehttp 4776 3908 "GET /api/metrics/?page=1&start_date=2025-03-25T17:45:12.727Z HTTP/1.1" 200 3853
+INFO 2025-04-01 23:15:12,825 basehttp 4776 15680 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 807
+INFO 2025-04-01 23:15:12,839 basehttp 4776 15680 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 807
+INFO 2025-04-01 23:16:45,353 basehttp 4776 18336 "GET /api/metrics/statistics/?days=90 HTTP/1.1" 200 807
+INFO 2025-04-01 23:18:55,338 autoreload 4776 14040 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-01 23:18:57,244 autoreload 14764 16864 Watching for file changes with StatReloader
+INFO 2025-04-01 23:19:18,735 autoreload 14764 16864 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-01 23:19:19,872 autoreload 18260 3976 Watching for file changes with StatReloader
+INFO 2025-04-01 23:19:28,519 autoreload 18260 3976 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-01 23:19:29,590 autoreload 19208 10732 Watching for file changes with StatReloader
+INFO 2025-04-01 23:19:35,089 autoreload 19208 10732 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-01 23:19:36,147 autoreload 11852 2212 Watching for file changes with StatReloader
+INFO 2025-04-01 23:19:42,096 autoreload 11852 2212 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-01 23:19:43,656 autoreload 18276 8072 Watching for file changes with StatReloader
+INFO 2025-04-01 23:19:52,669 autoreload 18276 8072 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-01 23:19:53,936 autoreload 12104 10852 Watching for file changes with StatReloader
+INFO 2025-04-01 23:20:04,938 autoreload 12104 10852 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\urls.py changed, reloading.
+INFO 2025-04-01 23:20:06,083 autoreload 5604 20868 Watching for file changes with StatReloader
+INFO 2025-04-01 23:20:45,036 basehttp 5604 20904 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:20:45,062 basehttp 5604 20904 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:20:45,776 basehttp 5604 1652 "GET /api/system-info/ HTTP/1.1" 200 1458
+INFO 2025-04-01 23:20:45,938 basehttp 5604 1652 "GET /api/system-info/ HTTP/1.1" 200 1459
+INFO 2025-04-01 23:21:05,835 basehttp 5604 16692 "GET /api/metrics/?page=1&start_date=2025-03-25T17:51:05.437Z HTTP/1.1" 200 3853
+INFO 2025-04-01 23:21:05,857 basehttp 5604 4976 "GET /api/metrics/?page=1&start_date=2025-03-25T17:51:05.439Z HTTP/1.1" 200 3853
+INFO 2025-04-01 23:21:05,866 basehttp 5604 18196 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 807
+INFO 2025-04-01 23:21:05,899 basehttp 5604 18196 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 807
+INFO 2025-04-01 23:21:07,442 basehttp 5604 18196 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:21:07,444 basehttp 5604 16692 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:21:07,461 basehttp 5604 18196 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:21:07,461 basehttp 5604 16692 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:21:07,930 basehttp 5604 4976 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-01 23:21:08,056 basehttp 5604 4976 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-01 23:45:38,428 autoreload 18980 18556 Watching for file changes with StatReloader
+INFO 2025-04-01 23:45:58,701 basehttp 18980 17940 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:45:58,725 basehttp 18980 17940 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:45:59,813 basehttp 18980 18312 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:45:59,841 basehttp 18980 18312 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:45:59,871 basehttp 18980 18312 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:45:59,880 basehttp 18980 17940 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:46:02,541 basehttp 18980 16328 "GET /api/system-info/ HTTP/1.1" 200 1603
+INFO 2025-04-01 23:46:02,708 basehttp 18980 16328 "GET /api/system-info/ HTTP/1.1" 200 1600
+ERROR 2025-04-01 23:46:02,796 log 18980 20616 Internal Server Error: /api/dashboard/
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hardware_api_hardwareissue.fan_expected_speed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py", line 366, in get
+    summary = hardware_monitor.get_system_summary()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py", line 499, in get_system_summary
+    'unresolved_issues': [
+                         ^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hardware_api_hardwareissue.fan_expected_speed
+ERROR 2025-04-01 23:46:02,826 basehttp 18980 20616 "GET /api/dashboard/ HTTP/1.1" 500 174724
+ERROR 2025-04-01 23:46:03,019 log 18980 16328 Internal Server Error: /api/dashboard/
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hardware_api_hardwareissue.fan_expected_speed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py", line 366, in get
+    summary = hardware_monitor.get_system_summary()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py", line 499, in get_system_summary
+    'unresolved_issues': [
+                         ^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hardware_api_hardwareissue.fan_expected_speed
+ERROR 2025-04-01 23:46:03,025 basehttp 18980 16328 "GET /api/dashboard/ HTTP/1.1" 500 174725
+INFO 2025-04-01 23:46:08,292 basehttp 18980 20616 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:46:08,437 basehttp 18980 16328 "GET /api/system-info/ HTTP/1.1" 200 1596
+INFO 2025-04-01 23:46:18,289 basehttp 18980 20616 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:46:18,436 basehttp 18980 16328 "GET /api/system-info/ HTTP/1.1" 200 1597
+INFO 2025-04-01 23:46:23,780 basehttp 18980 1336 "GET /api/metrics/?page=1&start_date=2025-03-25T18:16:23.324Z HTTP/1.1" 200 3853
+INFO 2025-04-01 23:46:23,789 basehttp 18980 8752 "GET /api/metrics/?page=1&start_date=2025-03-25T18:16:23.327Z HTTP/1.1" 200 3853
+INFO 2025-04-01 23:46:23,795 basehttp 18980 19808 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 807
+INFO 2025-04-01 23:46:23,835 basehttp 18980 19808 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 807
+INFO 2025-04-01 23:46:24,521 basehttp 18980 19808 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:46:24,531 basehttp 18980 19808 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:46:24,720 basehttp 18980 8752 "GET /api/system-info/ HTTP/1.1" 200 1600
+INFO 2025-04-01 23:46:24,893 basehttp 18980 8752 "GET /api/system-info/ HTTP/1.1" 200 1600
+INFO 2025-04-01 23:46:26,670 basehttp 18980 19808 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:46:26,671 basehttp 18980 8928 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:46:26,697 basehttp 18980 19808 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:46:26,705 basehttp 18980 8928 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:46:26,731 basehttp 18980 8928 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:46:26,754 basehttp 18980 8928 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:46:26,985 basehttp 18980 8752 "GET /api/system-info/ HTTP/1.1" 200 1605
+ERROR 2025-04-01 23:46:27,115 log 18980 1336 Internal Server Error: /api/dashboard/
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hardware_api_hardwareissue.fan_expected_speed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py", line 366, in get
+    summary = hardware_monitor.get_system_summary()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py", line 499, in get_system_summary
+    'unresolved_issues': [
+                         ^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hardware_api_hardwareissue.fan_expected_speed
+INFO 2025-04-01 23:46:27,217 basehttp 18980 8752 "GET /api/system-info/ HTTP/1.1" 200 1601
+ERROR 2025-04-01 23:46:27,218 basehttp 18980 1336 "GET /api/dashboard/ HTTP/1.1" 500 174725
+ERROR 2025-04-01 23:46:27,519 log 18980 8752 Internal Server Error: /api/dashboard/
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hardware_api_hardwareissue.fan_expected_speed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py", line 366, in get
+    summary = hardware_monitor.get_system_summary()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py", line 499, in get_system_summary
+    'unresolved_issues': [
+                         ^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hardware_api_hardwareissue.fan_expected_speed
+ERROR 2025-04-01 23:46:27,528 basehttp 18980 8752 "GET /api/dashboard/ HTTP/1.1" 500 174725
+INFO 2025-04-01 23:46:27,875 basehttp 18980 1336 "GET /api/metrics/?page=1&start_date=2025-03-25T18:16:27.714Z HTTP/1.1" 200 3853
+INFO 2025-04-01 23:46:27,891 basehttp 18980 8928 "GET /api/metrics/?page=1&start_date=2025-03-25T18:16:27.715Z HTTP/1.1" 200 3853
+INFO 2025-04-01 23:46:27,922 basehttp 18980 8752 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 807
+INFO 2025-04-01 23:46:27,971 basehttp 18980 8752 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 807
+INFO 2025-04-01 23:46:30,088 basehttp 18980 8752 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:46:30,114 basehttp 18980 8752 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:46:30,317 basehttp 18980 8928 "GET /api/system-info/ HTTP/1.1" 200 1600
+INFO 2025-04-01 23:46:30,508 basehttp 18980 8928 "GET /api/system-info/ HTTP/1.1" 200 1599
+INFO 2025-04-01 23:46:34,103 basehttp 18980 8928 "GET /api/metrics/statistics/?days=90 HTTP/1.1" 200 807
+INFO 2025-04-01 23:46:34,151 basehttp 18980 8928 "GET /api/metrics/statistics/?days=90 HTTP/1.1" 200 807
+INFO 2025-04-01 23:46:37,269 basehttp 18980 8752 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:46:37,280 basehttp 18980 19808 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:46:37,304 basehttp 18980 8752 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:46:37,307 basehttp 18980 11052 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:46:37,333 basehttp 18980 8752 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:46:37,548 basehttp 18980 8752 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:46:37,665 basehttp 18980 8928 "GET /api/system-info/ HTTP/1.1" 200 1603
+ERROR 2025-04-01 23:46:38,038 log 18980 1336 Internal Server Error: /api/dashboard/
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hardware_api_hardwareissue.fan_expected_speed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py", line 366, in get
+    summary = hardware_monitor.get_system_summary()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py", line 499, in get_system_summary
+    'unresolved_issues': [
+                         ^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hardware_api_hardwareissue.fan_expected_speed
+INFO 2025-04-01 23:46:38,098 basehttp 18980 8928 "GET /api/system-info/ HTTP/1.1" 200 1604
+ERROR 2025-04-01 23:46:38,098 basehttp 18980 1336 "GET /api/dashboard/ HTTP/1.1" 500 174724
+ERROR 2025-04-01 23:46:38,538 log 18980 8752 Internal Server Error: /api/dashboard/
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hardware_api_hardwareissue.fan_expected_speed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py", line 366, in get
+    summary = hardware_monitor.get_system_summary()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py", line 499, in get_system_summary
+    'unresolved_issues': [
+                         ^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hardware_api_hardwareissue.fan_expected_speed
+ERROR 2025-04-01 23:46:38,555 basehttp 18980 8752 "GET /api/dashboard/ HTTP/1.1" 500 174725
+INFO 2025-04-01 23:46:47,590 basehttp 18980 13800 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:46:47,734 basehttp 18980 12800 "GET /api/system-info/ HTTP/1.1" 200 1599
+INFO 2025-04-01 23:46:58,259 basehttp 18980 6488 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:46:58,425 basehttp 18980 9176 "GET /api/system-info/ HTTP/1.1" 200 1603
+INFO 2025-04-01 23:47:07,604 basehttp 18980 104 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:47:07,616 basehttp 18980 16212 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:47:07,617 basehttp 18980 104 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:47:07,786 basehttp 18980 10668 "GET /api/system-info/ HTTP/1.1" 200 1598
+ERROR 2025-04-01 23:47:07,842 log 18980 17204 Internal Server Error: /api/dashboard/
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hardware_api_hardwareissue.fan_expected_speed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py", line 366, in get
+    summary = hardware_monitor.get_system_summary()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py", line 499, in get_system_summary
+    'unresolved_issues': [
+                         ^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hardware_api_hardwareissue.fan_expected_speed
+ERROR 2025-04-01 23:47:07,847 basehttp 18980 17204 "GET /api/dashboard/ HTTP/1.1" 500 174724
+INFO 2025-04-01 23:47:17,609 basehttp 18980 4328 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:47:17,750 basehttp 18980 1232 "GET /api/system-info/ HTTP/1.1" 200 1601
+INFO 2025-04-01 23:47:27,598 basehttp 18980 9500 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:47:27,749 basehttp 18980 19060 "GET /api/system-info/ HTTP/1.1" 200 1599
+INFO 2025-04-01 23:47:37,637 basehttp 18980 20016 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:47:37,658 basehttp 18980 20208 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:47:37,875 basehttp 18980 20016 "GET /api/metrics/latest/ HTTP/1.1" 200 344
+INFO 2025-04-01 23:47:37,893 basehttp 18980 8800 "GET /api/system-info/ HTTP/1.1" 200 1601
+ERROR 2025-04-01 23:47:37,948 log 18980 20104 Internal Server Error: /api/dashboard/
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hardware_api_hardwareissue.fan_expected_speed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py", line 366, in get
+    summary = hardware_monitor.get_system_summary()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py", line 499, in get_system_summary
+    'unresolved_issues': [
+                         ^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hardware_api_hardwareissue.fan_expected_speed
+ERROR 2025-04-01 23:47:37,955 basehttp 18980 20104 "GET /api/dashboard/ HTTP/1.1" 500 174724
+INFO 2025-04-01 23:49:44,664 autoreload 10668 19564 Watching for file changes with StatReloader
+INFO 2025-04-01 23:49:48,121 basehttp 10668 21040 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:49:48,132 basehttp 10668 2400 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:49:48,138 basehttp 10668 21040 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:49:48,145 basehttp 10668 21040 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:49:48,665 basehttp 10668 20800 "GET /api/dashboard/ HTTP/1.1" 200 566
+INFO 2025-04-01 23:49:48,880 basehttp 10668 12872 "GET /api/system-info/ HTTP/1.1" 200 1599
+INFO 2025-04-01 23:49:49,030 basehttp 10668 12872 "GET /api/system-info/ HTTP/1.1" 200 1600
+INFO 2025-04-01 23:49:57,222 basehttp 10668 20800 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:49:57,402 basehttp 10668 12872 "GET /api/system-info/ HTTP/1.1" 200 1599
+INFO 2025-04-01 23:50:05,985 basehttp 10668 20800 "GET /api/metrics/?page=1&start_date=2025-03-25T18:20:05.890Z HTTP/1.1" 200 3546
+INFO 2025-04-01 23:50:05,996 basehttp 10668 21040 "GET /api/metrics/?page=1&start_date=2025-03-25T18:20:05.891Z HTTP/1.1" 200 3546
+INFO 2025-04-01 23:50:06,010 basehttp 10668 12872 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 807
+INFO 2025-04-01 23:50:06,048 basehttp 10668 21040 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 807
+WARNING 2025-04-01 23:50:10,239 log 10668 12872 Not Found: /api/metrics/
+WARNING 2025-04-01 23:50:10,243 basehttp 10668 12872 "GET /api/metrics/?page=2&start_date=2025-03-25T18:20:10.125Z HTTP/1.1" 404 26
+INFO 2025-04-01 23:50:10,256 basehttp 10668 21040 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 807
+INFO 2025-04-01 23:50:12,639 basehttp 10668 21040 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:50:12,650 basehttp 10668 21040 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:50:12,819 basehttp 10668 12872 "GET /api/system-info/ HTTP/1.1" 200 1600
+INFO 2025-04-01 23:50:12,979 basehttp 10668 12872 "GET /api/system-info/ HTTP/1.1" 200 1599
+INFO 2025-04-01 23:50:16,637 basehttp 10668 12872 "GET /api/metrics/statistics/?days=90 HTTP/1.1" 200 807
+INFO 2025-04-01 23:50:16,663 basehttp 10668 12872 "GET /api/metrics/statistics/?days=90 HTTP/1.1" 200 807
+INFO 2025-04-01 23:50:21,056 basehttp 10668 2400 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:50:21,058 basehttp 10668 21040 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:50:21,074 basehttp 10668 2400 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:50:21,074 basehttp 10668 21040 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:50:21,084 basehttp 10668 21040 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:50:21,098 basehttp 10668 21040 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:50:21,233 basehttp 10668 20800 "GET /api/dashboard/ HTTP/1.1" 200 567
+INFO 2025-04-01 23:50:21,240 basehttp 10668 12872 "GET /api/system-info/ HTTP/1.1" 200 1604
+INFO 2025-04-01 23:50:21,421 basehttp 10668 20800 "GET /api/dashboard/ HTTP/1.1" 200 566
+INFO 2025-04-01 23:50:21,427 basehttp 10668 12872 "GET /api/system-info/ HTTP/1.1" 200 1599
+INFO 2025-04-01 23:50:31,588 basehttp 10668 9176 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:50:31,739 basehttp 10668 21460 "GET /api/system-info/ HTTP/1.1" 200 1597
+INFO 2025-04-01 23:50:40,969 basehttp 10668 9176 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:50:41,113 basehttp 10668 21460 "GET /api/system-info/ HTTP/1.1" 200 1597
+INFO 2025-04-01 23:50:51,310 basehttp 10668 9176 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:50:51,326 basehttp 10668 9176 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:50:51,387 basehttp 10668 9176 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:50:51,545 basehttp 10668 21460 "GET /api/system-info/ HTTP/1.1" 200 1597
+INFO 2025-04-01 23:50:51,546 basehttp 10668 4516 "GET /api/dashboard/ HTTP/1.1" 200 566
+INFO 2025-04-01 23:51:01,310 basehttp 10668 7024 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:51:01,526 basehttp 10668 9088 "GET /api/system-info/ HTTP/1.1" 200 1602
+INFO 2025-04-01 23:51:11,627 basehttp 10668 1108 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:51:11,799 basehttp 10668 7900 "GET /api/system-info/ HTTP/1.1" 200 1603
+INFO 2025-04-01 23:51:21,658 basehttp 10668 8988 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:51:21,665 basehttp 10668 18668 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:51:21,684 basehttp 10668 8988 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:51:21,962 basehttp 10668 9872 "GET /api/system-info/ HTTP/1.1" 200 1602
+INFO 2025-04-01 23:51:21,965 basehttp 10668 3652 "GET /api/dashboard/ HTTP/1.1" 200 567
+INFO 2025-04-01 23:51:31,616 basehttp 10668 18300 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:51:31,819 basehttp 10668 20700 "GET /api/system-info/ HTTP/1.1" 200 1603
+INFO 2025-04-01 23:51:41,595 basehttp 10668 5180 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:51:41,765 basehttp 10668 19140 "GET /api/system-info/ HTTP/1.1" 200 1597
+INFO 2025-04-01 23:51:51,624 basehttp 10668 18952 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:51:51,629 basehttp 10668 12372 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:51:51,654 basehttp 10668 18952 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:51:51,877 basehttp 10668 18056 "GET /api/dashboard/ HTTP/1.1" 200 566
+INFO 2025-04-01 23:51:51,881 basehttp 10668 20868 "GET /api/system-info/ HTTP/1.1" 200 1603
+INFO 2025-04-01 23:52:01,624 basehttp 10668 20164 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:52:01,776 basehttp 10668 14232 "GET /api/system-info/ HTTP/1.1" 200 1603
+INFO 2025-04-01 23:52:21,612 basehttp 10668 15048 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:52:21,616 basehttp 10668 11360 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:52:21,760 basehttp 10668 10148 "GET /api/dashboard/ HTTP/1.1" 200 566
+INFO 2025-04-01 23:52:24,306 basehttp 10668 11360 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:52:24,478 basehttp 10668 10148 "GET /api/system-info/ HTTP/1.1" 200 1599
+INFO 2025-04-01 23:53:24,689 basehttp 10668 20176 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:53:24,705 basehttp 10668 6476 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:53:24,755 basehttp 10668 20176 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:53:24,790 basehttp 10668 18720 "GET /api/dashboard/ HTTP/1.1" 200 567
+INFO 2025-04-01 23:53:24,873 basehttp 10668 4832 "GET /api/system-info/ HTTP/1.1" 200 1603
+INFO 2025-04-01 23:53:51,495 basehttp 10668 17640 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:53:51,518 basehttp 10668 6312 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-01 23:53:51,541 basehttp 10668 19800 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-01 23:53:51,736 basehttp 10668 17640 "GET /api/dashboard/ HTTP/1.1" 200 567
+INFO 2025-04-01 23:53:51,736 basehttp 10668 16608 "GET /api/system-info/ HTTP/1.1" 200 1602
+INFO 2025-04-02 10:38:51,613 autoreload 13652 21020 Watching for file changes with StatReloader
+INFO 2025-04-02 10:44:38,988 basehttp 13652 8264 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 10:44:38,995 basehttp 13652 10856 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 10:44:39,621 basehttp 13652 6932 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:44:39,631 basehttp 13652 12664 "GET /api/dashboard/ HTTP/1.1" 200 567
+INFO 2025-04-02 10:44:39,637 basehttp 13652 6932 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:44:39,784 basehttp 13652 12664 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 10:44:41,537 basehttp 13652 15404 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 10:44:43,124 basehttp 13652 15404 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 10:45:08,778 basehttp 13652 10856 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 10:45:08,798 basehttp 13652 12664 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:45:08,984 basehttp 13652 6932 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 10:45:11,157 basehttp 13652 15404 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 10:45:13,966 basehttp 13652 15404 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:45:13,984 basehttp 13652 15404 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:45:16,592 basehttp 13652 6932 "GET /api/system-info/ HTTP/1.1" 200 1579
+INFO 2025-04-02 10:45:18,584 basehttp 13652 6932 "GET /api/system-info/ HTTP/1.1" 200 1581
+INFO 2025-04-02 10:45:29,572 basehttp 13652 21420 "GET /api/metrics/statistics/?days=90 HTTP/1.1" 200 807
+INFO 2025-04-02 10:45:29,640 basehttp 13652 21420 "GET /api/metrics/statistics/?days=90 HTTP/1.1" 200 807
+INFO 2025-04-02 10:45:33,246 basehttp 13652 21496 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:45:33,451 basehttp 13652 21496 "GET /api/dashboard/ HTTP/1.1" 200 567
+INFO 2025-04-02 10:45:33,463 basehttp 13652 21496 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 10:45:33,487 basehttp 13652 21496 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:45:33,519 basehttp 13652 23284 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 10:45:33,653 basehttp 13652 21496 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 10:45:35,036 basehttp 13652 21420 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 10:45:36,572 basehttp 13652 21420 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 10:46:08,640 basehttp 13652 20892 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:46:08,846 basehttp 13652 20892 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 10:46:08,863 basehttp 13652 20892 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 10:46:10,900 basehttp 13652 21892 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 10:46:12,283 autoreload 13652 21020 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-02 10:46:16,811 autoreload 16172 21668 Watching for file changes with StatReloader
+INFO 2025-04-02 10:46:31,832 autoreload 16172 21668 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-02 10:46:34,530 autoreload 11268 20260 Watching for file changes with StatReloader
+INFO 2025-04-02 10:46:49,371 basehttp 11268 944 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:46:49,375 basehttp 11268 23092 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 10:46:49,413 basehttp 11268 23092 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:46:49,413 basehttp 11268 944 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 10:46:50,064 basehttp 11268 21740 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 10:46:50,201 basehttp 11268 21740 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 10:46:51,436 basehttp 11268 5584 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 10:46:52,960 basehttp 11268 5584 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 10:47:00,211 basehttp 11268 21740 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:47:00,224 basehttp 11268 23092 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 10:47:00,233 basehttp 11268 21740 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:47:00,242 basehttp 11268 23092 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 10:47:00,382 basehttp 11268 944 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 10:47:00,550 basehttp 11268 944 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 10:47:02,009 basehttp 11268 5584 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 10:47:03,641 basehttp 11268 5584 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 10:54:36,586 basehttp 11268 23992 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:54:36,603 basehttp 11268 23864 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 10:54:36,817 basehttp 11268 23992 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:54:36,820 basehttp 11268 23864 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 10:54:36,961 basehttp 11268 16860 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 10:54:37,524 basehttp 11268 16860 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 10:54:41,369 basehttp 11268 23852 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 10:54:43,861 basehttp 11268 23852 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 10:55:07,223 basehttp 11268 1560 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:55:07,237 basehttp 11268 11652 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 10:55:07,265 basehttp 11268 24300 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 10:55:14,338 basehttp 11268 10920 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 10:55:33,117 basehttp 11268 8664 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:55:33,132 basehttp 11268 3824 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 10:55:33,304 basehttp 11268 21420 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 10:55:37,087 basehttp 11268 20788 "GET /api/fans/ HTTP/1.1" 200 109
+ERROR 2025-04-02 10:56:00,194 log 11268 9488 Internal Server Error: /api/metrics/collect/
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py", line 86, in collect
+    metric_obj = hardware_monitor.save_metrics(metrics)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py", line 266, in save_metrics
+    metric_obj = SystemMetric(
+                 ^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: SystemMetric() got unexpected keyword arguments: 'swap_percent', 'disk_read_count', 'disk_write_count'
+ERROR 2025-04-02 10:56:00,469 log 11268 22320 Internal Server Error: /api/metrics/collect/
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py", line 86, in collect
+    metric_obj = hardware_monitor.save_metrics(metrics)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py", line 266, in save_metrics
+    metric_obj = SystemMetric(
+                 ^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: SystemMetric() got unexpected keyword arguments: 'swap_percent', 'disk_read_count', 'disk_write_count'
+ERROR 2025-04-02 10:56:00,681 log 11268 24360 Internal Server Error: /api/metrics/collect/
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py", line 86, in collect
+    metric_obj = hardware_monitor.save_metrics(metrics)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py", line 266, in save_metrics
+    metric_obj = SystemMetric(
+                 ^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: SystemMetric() got unexpected keyword arguments: 'swap_percent', 'disk_read_count', 'disk_write_count'
+ERROR 2025-04-02 10:56:00,828 log 11268 24496 Internal Server Error: /api/metrics/collect/
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py", line 86, in collect
+    metric_obj = hardware_monitor.save_metrics(metrics)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py", line 266, in save_metrics
+    metric_obj = SystemMetric(
+                 ^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: SystemMetric() got unexpected keyword arguments: 'swap_percent', 'disk_read_count', 'disk_write_count'
+ERROR 2025-04-02 10:56:00,829 basehttp 11268 9488 "POST /api/metrics/collect/ HTTP/1.1" 500 112231
+ERROR 2025-04-02 10:56:00,910 basehttp 11268 24360 "POST /api/metrics/collect/ HTTP/1.1" 500 112231
+ERROR 2025-04-02 10:56:00,911 basehttp 11268 22320 "POST /api/metrics/collect/ HTTP/1.1" 500 112231
+ERROR 2025-04-02 10:56:00,914 basehttp 11268 24496 "POST /api/metrics/collect/ HTTP/1.1" 500 112231
+INFO 2025-04-02 10:56:06,112 basehttp 11268 332 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 10:56:06,112 basehttp 11268 21416 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:56:07,857 basehttp 11268 7976 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 10:56:20,907 basehttp 11268 22336 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 10:56:32,994 basehttp 11268 13428 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:56:33,007 basehttp 11268 24368 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 10:56:33,203 basehttp 11268 10720 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 10:56:36,413 basehttp 11268 9164 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 10:57:03,496 basehttp 11268 19156 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:57:03,496 basehttp 11268 568 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 10:57:04,084 basehttp 11268 3768 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 10:57:12,789 basehttp 11268 1656 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 10:57:33,079 basehttp 11268 23032 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:57:33,214 basehttp 11268 11032 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 10:57:34,077 basehttp 11268 20160 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 10:57:38,612 basehttp 11268 2876 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 10:57:48,882 autoreload 11268 20260 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\models.py changed, reloading.
+INFO 2025-04-02 10:57:55,457 autoreload 21152 21780 Watching for file changes with StatReloader
+INFO 2025-04-02 10:58:03,462 basehttp 21152 8796 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+ERROR 2025-04-02 10:58:04,621 log 21152 16744 Internal Server Error: /api/dashboard/
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hardware_api_systemmetric.swap_percent
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py", line 370, in get
+    summary = hardware_monitor.get_system_summary()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py", line 661, in get_system_summary
+    cpu_trend = [m.cpu_percent for m in metrics_history]
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hardware_api_systemmetric.swap_percent
+ERROR 2025-04-02 10:58:04,623 log 21152 8156 Internal Server Error: /api/metrics/latest/
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hardware_api_systemmetric.swap_percent
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py", line 93, in latest
+    latest_metric = SystemMetric.objects.order_by('-timestamp').first()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1057, in first
+    for obj in queryset[:1]:
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91984\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hardware_api_systemmetric.swap_percent
+ERROR 2025-04-02 10:58:04,643 basehttp 21152 16744 "GET /api/dashboard/ HTTP/1.1" 500 176115
+ERROR 2025-04-02 10:58:04,650 basehttp 21152 8156 "GET /api/metrics/latest/ HTTP/1.1" 500 176186
+INFO 2025-04-02 10:58:09,437 basehttp 21152 2764 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 10:58:30,522 autoreload 21152 21780 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py changed, reloading.
+INFO 2025-04-02 10:58:33,000 autoreload 21384 12912 Watching for file changes with StatReloader
+INFO 2025-04-02 10:59:03,137 basehttp 21384 23880 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:59:04,179 basehttp 21384 12952 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 10:59:04,198 basehttp 21384 16208 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 10:59:10,360 basehttp 21384 13708 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 10:59:31,964 basehttp 21384 24248 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:59:32,212 basehttp 21384 1416 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 10:59:32,274 basehttp 21384 24248 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:59:32,465 basehttp 21384 1416 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 10:59:32,714 basehttp 21384 6372 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 10:59:33,147 basehttp 21384 6372 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 10:59:35,957 basehttp 21384 20236 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 10:59:37,807 basehttp 21384 20236 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 10:59:54,631 basehttp 21384 20160 "GET /api/metrics/?page=1&start_date=2025-03-26T05:29:53.851Z HTTP/1.1" 200 3546
+INFO 2025-04-02 10:59:54,675 basehttp 21384 24248 "GET /api/metrics/?page=1&start_date=2025-03-26T05:29:53.857Z HTTP/1.1" 200 3546
+INFO 2025-04-02 10:59:54,829 basehttp 21384 20236 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 807
+INFO 2025-04-02 10:59:56,273 basehttp 21384 24248 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 10:59:56,273 basehttp 21384 20236 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 807
+INFO 2025-04-02 10:59:56,459 basehttp 21384 20236 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:00:03,656 basehttp 21384 24248 "GET /api/system-info/ HTTP/1.1" 200 1583
+INFO 2025-04-02 11:00:07,568 basehttp 21384 24248 "GET /api/system-info/ HTTP/1.1" 200 1583
+INFO 2025-04-02 11:00:14,353 basehttp 21384 18892 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:00:15,087 basehttp 21384 21900 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:00:15,427 basehttp 21384 18892 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:00:15,576 basehttp 21384 21900 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:00:15,642 basehttp 21384 3576 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 11:00:16,675 basehttp 21384 3576 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 11:00:20,080 basehttp 21384 9488 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:00:23,418 basehttp 21384 9488 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:09:06,592 basehttp 21384 18796 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:09:06,673 basehttp 21384 23824 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:09:06,896 basehttp 21384 24148 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 11:09:15,893 basehttp 21384 13724 - Broken pipe from ('127.0.0.1', 53444)
+INFO 2025-04-02 11:09:22,405 basehttp 21384 22552 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:09:22,405 basehttp 21384 22956 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:09:22,412 basehttp 21384 19996 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 11:09:22,568 basehttp 21384 22552 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:09:22,667 basehttp 21384 22956 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:09:22,941 basehttp 21384 19996 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 11:09:31,176 basehttp 21384 2864 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:09:32,912 basehttp 21384 2864 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:09:52,546 basehttp 21384 24844 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:09:52,595 basehttp 21384 24836 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:09:52,599 basehttp 21384 24828 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 11:09:56,435 basehttp 21384 25344 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:10:21,597 basehttp 21384 24844 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:10:21,597 basehttp 21384 24828 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:10:21,733 basehttp 21384 24836 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:10:23,424 basehttp 21384 25344 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:10:44,211 basehttp 21384 23544 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:10:44,342 basehttp 21384 23544 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:10:44,382 basehttp 21384 1792 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:10:44,543 basehttp 21384 1792 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:10:44,622 basehttp 21384 24412 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:10:45,650 basehttp 21384 24412 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:10:55,654 basehttp 21384 21784 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:11:00,042 basehttp 21384 21784 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:11:14,393 basehttp 21384 15152 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:11:14,501 basehttp 21384 7892 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:11:14,996 basehttp 21384 25552 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:11:17,719 basehttp 21384 23640 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:11:43,764 basehttp 21384 6644 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:11:43,860 basehttp 21384 18900 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:11:44,032 basehttp 21384 4752 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:11:45,770 basehttp 21384 20312 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:12:13,746 basehttp 21384 17980 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:12:13,768 basehttp 21384 24844 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:12:14,025 basehttp 21384 20952 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:12:16,259 basehttp 21384 21816 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:12:43,765 basehttp 21384 10600 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:12:43,800 basehttp 21384 6752 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:12:44,346 basehttp 21384 23704 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:12:46,652 basehttp 21384 25560 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:13:13,765 basehttp 21384 22192 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:13:13,790 basehttp 21384 24216 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:13:14,003 basehttp 21384 10556 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:13:16,363 basehttp 21384 19288 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:13:43,747 basehttp 21384 17424 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:13:43,754 basehttp 21384 23152 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:13:43,933 basehttp 21384 24764 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:13:45,651 basehttp 21384 18456 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:14:13,758 basehttp 21384 21492 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:14:13,804 basehttp 21384 6784 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:14:13,955 basehttp 21384 22452 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:14:15,799 basehttp 21384 6408 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:14:46,281 basehttp 21384 8648 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:14:46,295 basehttp 21384 18168 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:14:47,454 basehttp 21384 10944 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:14:51,446 basehttp 21384 13748 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:15:13,806 basehttp 21384 9080 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:15:13,822 basehttp 21384 5964 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:15:14,129 basehttp 21384 21412 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:15:16,134 basehttp 21384 20692 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:15:43,957 basehttp 21384 22684 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:15:44,114 basehttp 21384 22772 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:15:44,208 basehttp 21384 25144 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 11:15:45,768 basehttp 21384 21852 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:16:13,727 basehttp 21384 19480 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:16:13,736 basehttp 21384 21368 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:16:13,878 basehttp 21384 3780 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:16:15,425 basehttp 21384 17640 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:16:43,740 basehttp 21384 22476 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:16:43,754 basehttp 21384 3980 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:16:43,905 basehttp 21384 21900 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:16:45,533 basehttp 21384 24808 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:17:13,728 basehttp 21384 20380 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:17:13,758 basehttp 21384 3776 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:17:13,898 basehttp 21384 22008 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:17:15,586 basehttp 21384 18004 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:17:43,734 basehttp 21384 4748 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:17:43,746 basehttp 21384 8436 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:17:43,896 basehttp 21384 18940 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:17:45,379 basehttp 21384 25140 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:18:13,740 basehttp 21384 3152 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:18:13,763 basehttp 21384 18072 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:18:13,916 basehttp 21384 22696 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:18:15,433 basehttp 21384 4604 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:18:43,753 basehttp 21384 10860 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:18:43,761 basehttp 21384 25460 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:18:43,981 basehttp 21384 4608 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:18:45,554 basehttp 21384 19524 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:19:13,489 basehttp 21384 10860 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:19:13,490 basehttp 21384 4608 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:19:13,890 basehttp 21384 25460 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:19:17,045 basehttp 21384 19524 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:19:43,751 basehttp 21384 7976 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:19:43,756 basehttp 21384 21848 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:19:43,979 basehttp 21384 9412 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:19:45,670 basehttp 21384 19484 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:20:13,748 basehttp 21384 18184 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:20:13,750 basehttp 21384 10120 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:20:13,886 basehttp 21384 4624 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:20:15,334 basehttp 21384 4952 "GET /api/fans/ HTTP/1.1" 200 109
+WARNING 2025-04-02 11:20:43,751 log 21384 16520 Too Many Requests: /api/dashboard/
+INFO 2025-04-02 11:20:43,752 basehttp 21384 11152 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+WARNING 2025-04-02 11:20:43,757 basehttp 21384 16520 "GET /api/dashboard/ HTTP/1.1" 429 72
+WARNING 2025-04-02 11:20:43,755 log 21384 24196 Too Many Requests: /api/issues/unresolved/
+WARNING 2025-04-02 11:20:43,772 basehttp 21384 24196 "GET /api/issues/unresolved/ HTTP/1.1" 429 72
+INFO 2025-04-02 11:20:45,362 basehttp 21384 20724 "GET /api/fans/ HTTP/1.1" 200 109
+WARNING 2025-04-02 11:21:13,718 log 21384 5984 Too Many Requests: /api/metrics/latest/
+WARNING 2025-04-02 11:21:13,721 basehttp 21384 5984 "GET /api/metrics/latest/ HTTP/1.1" 429 72
+WARNING 2025-04-02 11:21:13,726 log 21384 9428 Too Many Requests: /api/dashboard/
+WARNING 2025-04-02 11:21:13,729 basehttp 21384 9428 "GET /api/dashboard/ HTTP/1.1" 429 72
+WARNING 2025-04-02 11:21:13,734 log 21384 23224 Too Many Requests: /api/issues/unresolved/
+WARNING 2025-04-02 11:21:13,738 basehttp 21384 23224 "GET /api/issues/unresolved/ HTTP/1.1" 429 72
+INFO 2025-04-02 11:21:15,372 basehttp 21384 22732 "GET /api/fans/ HTTP/1.1" 200 109
+WARNING 2025-04-02 11:21:44,066 log 21384 3700 Too Many Requests: /api/metrics/latest/
+WARNING 2025-04-02 11:21:44,071 basehttp 21384 3700 "GET /api/metrics/latest/ HTTP/1.1" 429 72
+WARNING 2025-04-02 11:21:44,091 log 21384 11600 Too Many Requests: /api/dashboard/
+WARNING 2025-04-02 11:21:44,169 basehttp 21384 11600 "GET /api/dashboard/ HTTP/1.1" 429 72
+WARNING 2025-04-02 11:21:44,239 log 21384 1184 Too Many Requests: /api/issues/unresolved/
+WARNING 2025-04-02 11:21:44,250 basehttp 21384 1184 "GET /api/issues/unresolved/ HTTP/1.1" 429 72
+INFO 2025-04-02 11:21:51,996 basehttp 21384 11568 "GET /api/fans/ HTTP/1.1" 200 109
+WARNING 2025-04-02 11:22:13,725 log 21384 15176 Too Many Requests: /api/metrics/latest/
+WARNING 2025-04-02 11:22:13,727 log 21384 24832 Too Many Requests: /api/dashboard/
+WARNING 2025-04-02 11:22:13,728 basehttp 21384 24832 "GET /api/dashboard/ HTTP/1.1" 429 72
+WARNING 2025-04-02 11:22:13,728 basehttp 21384 15176 "GET /api/metrics/latest/ HTTP/1.1" 429 72
+WARNING 2025-04-02 11:22:13,763 log 21384 12852 Too Many Requests: /api/issues/unresolved/
+WARNING 2025-04-02 11:22:13,765 basehttp 21384 12852 "GET /api/issues/unresolved/ HTTP/1.1" 429 72
+INFO 2025-04-02 11:22:15,470 basehttp 21384 9188 "GET /api/fans/ HTTP/1.1" 200 109
+WARNING 2025-04-02 11:22:43,733 log 21384 16520 Too Many Requests: /api/metrics/latest/
+WARNING 2025-04-02 11:22:43,735 basehttp 21384 16520 "GET /api/metrics/latest/ HTTP/1.1" 429 72
+WARNING 2025-04-02 11:22:43,741 log 21384 23128 Too Many Requests: /api/dashboard/
+WARNING 2025-04-02 11:22:43,744 basehttp 21384 23128 "GET /api/dashboard/ HTTP/1.1" 429 72
+WARNING 2025-04-02 11:22:43,761 log 21384 13372 Too Many Requests: /api/issues/unresolved/
+WARNING 2025-04-02 11:22:43,763 basehttp 21384 13372 "GET /api/issues/unresolved/ HTTP/1.1" 429 72
+INFO 2025-04-02 11:22:45,571 basehttp 21384 23912 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:22:48,153 autoreload 21384 12912 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-02 11:22:53,057 autoreload 24832 24008 Watching for file changes with StatReloader
+INFO 2025-04-02 11:23:13,775 basehttp 24832 5700 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:23:13,784 basehttp 24832 20348 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:23:15,411 basehttp 24832 22376 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:23:15,698 basehttp 24832 12332 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:23:17,201 autoreload 24832 24008 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-02 11:23:18,710 autoreload 9500 22520 Watching for file changes with StatReloader
+INFO 2025-04-02 11:23:43,743 basehttp 9500 5624 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:23:43,751 basehttp 9500 24776 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:23:44,259 basehttp 9500 23532 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:23:45,432 basehttp 9500 20560 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:24:09,128 basehttp 9500 15332 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:24:09,148 basehttp 9500 1724 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:24:09,190 basehttp 9500 15332 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:24:09,217 basehttp 9500 1724 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:24:09,391 basehttp 9500 22012 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:24:09,650 basehttp 9500 22012 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:24:11,955 basehttp 9500 24820 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:24:14,986 basehttp 9500 24820 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:24:39,064 basehttp 9500 24728 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:24:39,106 basehttp 9500 24036 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:24:39,322 basehttp 9500 7036 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:24:42,530 basehttp 9500 17628 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:25:08,979 basehttp 9500 23192 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:25:09,033 basehttp 9500 23864 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:25:09,280 basehttp 9500 18008 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:25:11,829 basehttp 9500 6016 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:25:14,036 basehttp 9500 19408 "GET /api/fans/ HTTP/1.1" 200 109
+WARNING 2025-04-02 11:25:14,672 log 9500 19408 Not Found: /favicon.ico
+WARNING 2025-04-02 11:25:14,680 basehttp 9500 19408 "GET /favicon.ico HTTP/1.1" 404 2232
+INFO 2025-04-02 11:25:39,155 basehttp 9500 13748 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:25:39,215 basehttp 9500 25216 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:25:39,506 basehttp 9500 17868 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:25:45,693 basehttp 9500 5180 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:26:08,954 basehttp 9500 17492 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:26:08,984 basehttp 9500 25136 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:26:09,141 basehttp 9500 12028 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 11:26:15,979 basehttp 9500 17548 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:26:39,024 basehttp 9500 16896 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:26:39,118 basehttp 9500 23244 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:26:39,428 basehttp 9500 23384 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:26:42,004 basehttp 9500 7240 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 11:27:08,948 basehttp 9500 22876 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 11:27:08,957 basehttp 9500 23404 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 11:27:09,106 basehttp 9500 22324 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 11:27:10,784 basehttp 9500 24628 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:29:01,690 basehttp 9500 26196 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:29:01,693 basehttp 9500 20984 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:29:01,710 basehttp 9500 26196 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:29:01,782 basehttp 9500 20984 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:29:01,928 basehttp 9500 14188 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 12:29:02,107 basehttp 9500 14188 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 12:29:06,211 basehttp 9500 23416 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:29:07,897 basehttp 9500 23416 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:29:30,689 basehttp 9500 24376 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:29:30,735 basehttp 9500 27580 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:29:30,830 basehttp 9500 20560 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 12:29:32,126 basehttp 9500 23416 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:30:00,682 basehttp 9500 17592 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:30:00,689 basehttp 9500 21208 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:30:00,910 basehttp 9500 9484 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 12:30:03,707 basehttp 9500 22392 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:30:30,725 basehttp 9500 15152 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:30:30,728 basehttp 9500 19620 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:30:30,917 basehttp 9500 24392 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 12:30:33,055 basehttp 9500 26524 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:31:00,570 basehttp 9500 19620 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:31:00,572 basehttp 9500 15152 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:31:00,610 basehttp 9500 24392 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 12:31:02,632 basehttp 9500 26524 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:31:30,670 basehttp 9500 1916 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:31:30,674 basehttp 9500 25692 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:31:30,814 basehttp 9500 26560 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 12:31:32,394 basehttp 9500 4624 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:32:00,372 basehttp 9500 26560 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:32:00,372 basehttp 9500 1916 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:32:00,529 basehttp 9500 25692 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 12:32:02,039 basehttp 9500 4624 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:32:30,364 basehttp 9500 25692 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:32:30,366 basehttp 9500 1916 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:32:30,541 basehttp 9500 26560 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 12:32:32,055 basehttp 9500 4624 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:33:00,354 basehttp 9500 26560 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:33:00,354 basehttp 9500 25692 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:33:00,504 basehttp 9500 1916 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 12:33:01,945 basehttp 9500 4624 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:33:28,516 basehttp 9500 22144 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:33:28,529 basehttp 9500 24116 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:33:28,529 basehttp 9500 22144 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:33:28,538 basehttp 9500 24116 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:33:28,655 basehttp 9500 19196 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 12:33:28,788 basehttp 9500 19196 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 12:33:30,161 basehttp 9500 24676 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:33:31,801 basehttp 9500 24676 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:35:05,909 basehttp 9500 9412 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:35:05,993 basehttp 9500 18376 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:35:06,065 basehttp 9500 9412 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:35:06,118 basehttp 9500 18376 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:35:07,055 basehttp 9500 22236 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 12:35:07,759 basehttp 9500 22236 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 12:35:12,906 basehttp 9500 3152 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:35:15,281 basehttp 9500 3152 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:35:35,456 basehttp 9500 8388 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:35:35,509 basehttp 9500 3736 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:35:35,666 basehttp 9500 23164 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 12:35:37,402 basehttp 9500 4596 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:35:55,679 basehttp 9500 18156 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:36:05,145 basehttp 9500 23164 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:36:05,147 basehttp 9500 8388 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:36:05,541 basehttp 9500 3736 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 12:36:07,301 basehttp 9500 4596 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:36:35,599 basehttp 9500 22516 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:36:35,621 basehttp 9500 20136 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:36:35,788 basehttp 9500 21760 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 12:36:37,431 basehttp 9500 13580 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:37:05,593 basehttp 9500 21892 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:37:05,612 basehttp 9500 21948 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:37:05,736 basehttp 9500 14292 "GET /api/dashboard/ HTTP/1.1" 200 567
+INFO 2025-04-02 12:37:07,318 basehttp 9500 23780 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:37:55,181 basehttp 9500 6384 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:37:55,185 basehttp 9500 5544 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:37:55,328 basehttp 9500 23204 "GET /api/dashboard/ HTTP/1.1" 200 567
+INFO 2025-04-02 12:37:57,024 basehttp 9500 24880 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:38:05,455 basehttp 9500 23708 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:38:05,467 basehttp 9500 24036 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:38:05,615 basehttp 9500 25908 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-02 12:38:07,290 basehttp 9500 22932 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:38:32,979 basehttp 9500 21200 "GET /api/metrics/?page=1&start_date=2025-03-26T07:08:32.416Z HTTP/1.1" 200 3546
+INFO 2025-04-02 12:38:32,981 basehttp 9500 23092 "GET /api/metrics/?page=1&start_date=2025-03-26T07:08:32.409Z HTTP/1.1" 200 3546
+INFO 2025-04-02 12:38:33,018 basehttp 9500 17576 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 807
+INFO 2025-04-02 12:38:33,062 basehttp 9500 17576 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 807
+INFO 2025-04-02 12:38:37,564 basehttp 9500 17576 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:38:37,600 basehttp 9500 17576 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+ERROR 2025-04-02 12:38:39,500 log 9500 23092 Internal Server Error: /api/system-info/
+ERROR 2025-04-02 12:38:39,522 basehttp 9500 23092 "GET /api/system-info/ HTTP/1.1" 500 77
+ERROR 2025-04-02 12:38:39,983 log 9500 23092 Internal Server Error: /api/system-info/
+ERROR 2025-04-02 12:38:39,994 basehttp 9500 23092 "GET /api/system-info/ HTTP/1.1" 500 77
+INFO 2025-04-02 12:40:39,132 basehttp 9500 20988 "GET /admin HTTP/1.1" 301 0
+INFO 2025-04-02 12:40:41,295 basehttp 9500 25624 "GET /admin/ HTTP/1.1" 200 7261
+INFO 2025-04-02 12:40:41,559 basehttp 9500 25624 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2025-04-02 12:40:41,595 basehttp 9500 17148 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2025-04-02 12:40:41,595 basehttp 9500 23980 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-04-02 12:40:41,651 basehttp 9500 25624 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-04-02 12:40:41,652 basehttp 9500 14724 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-04-02 12:40:41,779 basehttp 9500 5336 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-04-02 12:40:41,779 basehttp 9500 26256 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-04-02 12:40:41,869 basehttp 9500 26256 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-04-02 12:40:41,870 basehttp 9500 5336 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+WARNING 2025-04-02 12:40:42,015 log 9500 5336 Not Found: /favicon.ico
+WARNING 2025-04-02 12:40:42,056 basehttp 9500 5336 "GET /favicon.ico HTTP/1.1" 404 2232
+WARNING 2025-04-02 12:40:46,304 log 9500 5336 Not Found: /api/system-info//
+WARNING 2025-04-02 12:40:46,308 basehttp 9500 5336 "GET //api/system-info// HTTP/1.1" 404 12481
+ERROR 2025-04-02 12:40:52,391 log 9500 5336 Internal Server Error: /api/system-info/
+ERROR 2025-04-02 12:40:52,395 basehttp 9500 5336 "GET /api/system-info/ HTTP/1.1" 500 77
+INFO 2025-04-02 12:45:23,229 autoreload 9500 22520 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-02 12:45:29,407 autoreload 26652 15416 Watching for file changes with StatReloader
+INFO 2025-04-02 12:46:11,386 autoreload 26652 15416 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py changed, reloading.
+INFO 2025-04-02 12:46:13,710 autoreload 11752 21172 Watching for file changes with StatReloader
+INFO 2025-04-02 12:46:34,903 autoreload 11752 21172 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py changed, reloading.
+INFO 2025-04-02 12:46:38,371 autoreload 7092 19144 Watching for file changes with StatReloader
+INFO 2025-04-02 12:46:50,625 autoreload 7092 19144 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\hardware_monitor.py changed, reloading.
+INFO 2025-04-02 12:46:52,456 autoreload 18472 9464 Watching for file changes with StatReloader
+INFO 2025-04-02 12:47:09,971 basehttp 18472 21772 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:47:10,129 basehttp 18472 21772 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:47:16,715 basehttp 18472 17252 "GET /api/system-info/ HTTP/1.1" 200 1584
+INFO 2025-04-02 12:47:18,980 basehttp 18472 17252 "GET /api/system-info/ HTTP/1.1" 200 1580
+INFO 2025-04-02 12:47:26,718 basehttp 18472 17252 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:47:27,150 basehttp 18472 23556 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:47:27,155 basehttp 18472 26008 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:47:27,338 basehttp 18472 23556 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:47:28,777 basehttp 18472 21380 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 12:47:28,982 basehttp 18472 21380 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 12:47:29,214 basehttp 18472 17252 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:47:31,084 basehttp 18472 21380 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:47:32,879 basehttp 18472 21380 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:47:32,900 basehttp 18472 21380 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:47:34,867 basehttp 18472 17252 "GET /api/system-info/ HTTP/1.1" 200 1579
+INFO 2025-04-02 12:47:36,845 basehttp 18472 17252 "GET /api/system-info/ HTTP/1.1" 200 1578
+INFO 2025-04-02 12:48:28,350 basehttp 18472 25532 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:48:28,364 basehttp 18472 25532 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:48:30,627 basehttp 18472 13280 "GET /api/system-info/ HTTP/1.1" 200 1584
+INFO 2025-04-02 12:48:32,688 basehttp 18472 13280 "GET /api/system-info/ HTTP/1.1" 200 1580
+INFO 2025-04-02 12:48:56,962 basehttp 18472 27036 "GET /api/metrics/statistics/?days=90 HTTP/1.1" 200 807
+INFO 2025-04-02 12:48:57,035 basehttp 18472 27036 "GET /api/metrics/statistics/?days=90 HTTP/1.1" 200 807
+INFO 2025-04-02 12:49:03,430 basehttp 18472 27036 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:49:03,445 basehttp 18472 27036 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:49:05,517 basehttp 18472 22400 "GET /api/system-info/ HTTP/1.1" 200 1578
+INFO 2025-04-02 12:49:06,536 basehttp 18472 27036 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:49:07,507 basehttp 18472 22400 "GET /api/system-info/ HTTP/1.1" 200 1579
+INFO 2025-04-02 12:49:09,367 basehttp 18472 22400 "GET /api/system-info/ HTTP/1.1" 200 1578
+INFO 2025-04-02 12:49:12,781 basehttp 18472 27036 "GET /api/metrics/?page=1&start_date=2025-03-26T07:19:12.644Z HTTP/1.1" 200 3546
+INFO 2025-04-02 12:49:12,815 basehttp 18472 27036 "GET /api/metrics/?page=1&start_date=2025-03-26T07:19:12.645Z HTTP/1.1" 200 3546
+INFO 2025-04-02 12:49:12,829 basehttp 18472 22400 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 807
+INFO 2025-04-02 12:49:12,876 basehttp 18472 22400 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 807
+INFO 2025-04-02 12:49:21,215 basehttp 18472 27036 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:49:21,232 basehttp 18472 27036 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:49:21,386 basehttp 18472 27036 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-02 12:49:21,420 basehttp 18472 27036 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-02 12:49:21,423 basehttp 18472 22548 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 12:49:21,614 basehttp 18472 22548 "GET /api/dashboard/ HTTP/1.1" 200 569
+INFO 2025-04-02 12:49:23,123 basehttp 18472 22400 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-02 12:49:24,792 basehttp 18472 22400 "GET /api/fans/ HTTP/1.1" 200 109
