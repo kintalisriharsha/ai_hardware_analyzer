@@ -1,12 +1,4 @@
 /* eslint-disable no-unused-vars */
-/**
- * eslint-disable no-unused-vars
- *
- * @format
- */
-
-
-// File: src/pages/SystemAnalysis.jsx
 import { useState, useEffect } from "react";
 import {
   Container,
@@ -23,6 +15,7 @@ import {
   Progress,
   Badge,
   Skeleton,
+  RingProgress,
   useMantineTheme,
 } from "@mantine/core";
 import {
@@ -99,15 +92,68 @@ const extractDiskGB = (sizeStr) => {
   return 0;
 };
 
+// Function to calculate fan progress percentage
+const calculateFanProgress = (speed) => {
+  if (!speed) return 0;
+  const rpm = typeof speed === "number" ? speed : parseInt(speed.replace(/[^\d]/g, ""));
+  // Assuming max RPM is 3000
+  const maxRpm = 3000;
+  return Math.min(100, (rpm / maxRpm) * 100);
+};
+
+// Function to get fan color based on RPM
+const getFanColor = (speed) => {
+  if (!speed) return "gray";
+  const rpm = typeof speed === "number" ? speed : parseInt(speed.replace(/[^\d]/g, ""));
+  if (rpm === 0) return "red";
+  if (rpm < 800) return "orange";
+  if (rpm > 2500) return "yellow";
+  return "green";
+};
+
 const SystemAnalysis = () => {
   const [metrics, setMetrics] = useState(null);
   const [systemInfo, setSystemInfo] = useState(null);
+  const [fanData, setFanData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
   const theme = useMantineTheme();
 
+  const fetchFanData = async () => {
+    try {
+      // Add cache-busting timestamp
+      const timestamp = new Date().getTime();
+      const response = await fetch(`/api/fans/?t=${timestamp}`);
+      
+      if (!response.ok) {
+        throw new Error(`Server error: ${response.status}`);
+      }
+      
+      const data = await response.json();
+      if (Array.isArray(data) && data.length > 0) {
+        setFanData(data);
+      }
+    } catch (error) {
+      console.error("Error fetching fan data:", error);
+    }
+  };
+
   const fetchData = async () => {
     setLoading(true);
+    try {
+      await Promise.all([
+        fetchSystemData(),
+        fetchFanData()
+      ]);
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    } finally {
+      setLoading(false);
+      setRefreshing(false);
+    }
+  };
+
+  const fetchSystemData = async () => {
     try {
       const [metricsRes, systemInfoRes] = await Promise.all([
         getLatestMetrics(),
@@ -162,23 +208,6 @@ const SystemAnalysis = () => {
           };
         }
 
-        // Get fan details
-        let fanInfo = {
-          hasFans: false,
-          fans: [],
-        };
-
-        if (systemInfoRes.data.fans && systemInfoRes.data.fans.length > 0) {
-          fanInfo = {
-            hasFans: true,
-            fans: systemInfoRes.data.fans.map((fan) => ({
-              name: fan.name || "Unknown Fan",
-              speed: fan.speed || "Unknown",
-              status: fan.status || "Unknown",
-            })),
-          };
-        }
-
         // Build system info object
         setSystemInfo({
           cpu: cpuInfo,
@@ -189,7 +218,6 @@ const SystemAnalysis = () => {
           },
           storage: storageInfo,
           gpu: gpuInfo,
-          fans: fanInfo,
         });
       }
     } catch (error) {
@@ -218,22 +246,16 @@ const SystemAnalysis = () => {
           model: "NVIDIA GeForce RTX 3070",
           memory_gb: 8,
         },
-        fans: {
-          hasFans: true,
-          fans: [
-            { name: "CPU Fan", speed: "1200 RPM", status: "Active" },
-            { name: "Case Fan", speed: "800 RPM", status: "Active" },
-          ],
-        },
       });
-    } finally {
-      setLoading(false);
-      setRefreshing(false);
     }
   };
 
   useEffect(() => {
     fetchData();
+    
+    // Set up polling for fan data every 5 seconds
+    const interval = setInterval(fetchFanData, 5000);
+    return () => clearInterval(interval);
   }, []);
 
   const handleRefresh = () => {
@@ -481,7 +503,7 @@ const SystemAnalysis = () => {
                     </Group>
 
                     {/* Fan Section */}
-                    {systemInfo?.fans?.hasFans && (
+                    {fanData.length > 0 && (
                       <>
                         <Divider my="xs" />
 
@@ -490,23 +512,41 @@ const SystemAnalysis = () => {
                           <IconWind size={20} />
                         </Group>
 
-                        {systemInfo.fans.fans.map((fan, index) => (
-                          <Group key={index} position="apart">
-                            <Text size="sm" color="dimmed">
+                        {fanData.map((fan, index) => (
+                          <Group key={index} position="apart" mb="sm">
+                            <Text size="sm">
                               {fan.name || `Fan ${index + 1}`}
                             </Text>
-                            <Badge
-                              color={
-                                fan.status === "Active"
-                                  ? "green"
-                                  : fan.status === "Inactive"
-                                    ? "orange"
-                                    : "gray"
-                              }
-                              variant="light"
-                            >
-                              {fan.speed || fan.status}
-                            </Badge>
+                            <Group spacing="xs">
+                              <RingProgress
+                                size={45}
+                                thickness={5}
+                                roundCaps
+                                sections={[
+                                  {
+                                    value: calculateFanProgress(fan.value),
+                                    color: getFanColor(fan.value),
+                                  },
+                                ]}
+                                label={
+                                  <Text size="xs" align="center" weight={700}>
+                                    {typeof fan.value === 'number' ? fan.value : parseInt(fan.speed)}
+                                  </Text>
+                                }
+                              />
+                              <Badge
+                                color={
+                                  fan.status === "Active"
+                                    ? "green"
+                                    : fan.status === "Inactive"
+                                      ? "orange"
+                                      : "gray"
+                                }
+                                variant="light"
+                              >
+                                {fan.speed}
+                              </Badge>
+                            </Group>
                           </Group>
                         ))}
                       </>
@@ -732,6 +772,17 @@ const SystemAnalysis = () => {
                     <Text>
                       Your storage space is low. Free up disk space or add
                       additional storage.
+                    </Text>
+                  </List.Item>
+                )}
+
+                {fanData.some(fan => 
+                   fan.status === "Inactive" || 
+                   (fan.value && fan.value < 800 && fan.name.includes("CPU"))
+                ) && (
+                  <List.Item>
+                    <Text>
+                      Check your cooling system. Some fans are running at suboptimal speeds.
                     </Text>
                   </List.Item>
                 )}

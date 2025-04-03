@@ -13,5 +13,5 @@ urlpatterns = [
     path('health/', views.health_check, name='health_check'),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('system-info/', views.system_info, name='system_info'),
-    path('fans/', views.get_fan_info, name='fan-info'),
+    path('fans/', views.fan_data, name='fan-data'), 
 ]

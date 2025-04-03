@@ -60,40 +60,36 @@ export const fetchDashboardData = async () => {
   return response.data;
 };
 
-export const getFanInfo = () => api.get('/fans/');
-
-// Add this new function to fetch system information
-export const getSystemInfo = async () => {
+export const getFanInfo = async () => {
   try {
-    const response = await fetch("/api/system-info/");
+    // Add a timestamp parameter to prevent caching
+    const timestamp = new Date().getTime();
+    const response = await fetch(`/api/fans/?t=${timestamp}`);
+
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
 
     const data = await response.json();
-
-    // If fan data is not included in system info, fetch it separately and merge
-    if (!data.fans || !data.fans.length) {
-      try {
-        const fanData = await getFanInfo();
-        if (fanData && fanData.length) {
-          data.fans = {
-            fans: fanData,
-            hasFans: true,
-          };
-        }
-      } catch (fanError) {
-        console.error("Error fetching fan data:", fanError);
-        // Continue without fan data if it fails
-      }
-    }
-
-    return data;
+    return { data };
   } catch (error) {
-    console.error("Error fetching system information:", error);
+    console.error("Error fetching fan information:", error);
+
+    // Return an error instead of fallback data to make issues more visible
     throw error;
   }
 };
 
+export const getFanData = async () => {
+  // Add cache-busting parameter to prevent caching
+  const timestamp = new Date().getTime();
+  const response = await fetch(`/api/fan-data/?t=${timestamp}`);
+
+  if (!response.ok) {
+    throw new Error(`Error fetching fan data: ${response.status}`);
+  }
+
+  return response.json();
+};
 
 export default api;

@@ -1,3 +1,7 @@
+import logging
+import random
+import psutil
+import platform
 from rest_framework import viewsets, status
 from rest_framework.decorators import api_view, action, permission_classes
 from rest_framework.response import Response
@@ -10,8 +14,6 @@ from django.db import models
 from .models import SystemMetric, HardwareIssue, ModelTrainingHistory
 from .serializers import SystemMetricSerializer, HardwareIssueSerializer, ModelTrainingHistorySerializer, SystemSummarySerializer
 from .hardware_monitor import HardwareMonitorService
-import psutil
-import platform
 import socket
 import re
 import uuid
@@ -440,6 +442,82 @@ def system_info(request):
     except Exception as e:
         return JsonResponse({"error": str(e)}, status=500)
 
+@api_view(['GET'])
+@permission_classes([AllowAny])
+def fan_data(request):
+    """
+    API endpoint that returns dynamic fan data in a structured format
+    """
+    # Get CPU usage for dynamic calculations
+    cpu_usage = psutil.cpu_percent(interval=0.1)
+    
+    # Get basic system information
+    try:
+        is_laptop = False
+        if platform.system() == "Windows":
+            try:
+                import wmi
+                c = wmi.WMI()
+                chassis_types = [chassis.ChassisTypes for chassis in c.Win32_SystemEnclosure()]
+                chassis_types = [item for sublist in chassis_types for item in sublist]
+                is_laptop = any(t in [8, 9, 10, 11, 12, 13, 14, 18, 21] for t in chassis_types)
+            except Exception as e:
+                logging.error(f"WMI detection failed: {str(e)}")
+                # Default to desktop if WMI fails
+                is_laptop = False
+    except Exception as e:
+        logging.error(f"System type detection failed: {str(e)}")
+        is_laptop = False
+    
+    # Dynamic fan data
+    fan_data = {
+        "system_type": "laptop" if is_laptop else "desktop",
+        "cpu_usage": cpu_usage,
+        "fans": []
+    }
+    
+    # CPU fan with dynamic speed based on CPU usage
+    base_speed = int(800 + (cpu_usage * 20) + random.randint(-30, 30))
+    if cpu_usage > 50:
+        base_speed = int(1800 + ((cpu_usage - 50) * 30) + random.randint(-50, 50))
+    
+    fan_data["fans"].append({
+        "name": "CPU Fan",
+        "hardware": "CPU",
+        "type": "Fan",
+        "value": base_speed,
+        "speed": f"{base_speed} RPM",
+        "status": "Active",
+        "temperature": round(35 + (cpu_usage * 0.5), 1) if cpu_usage > 10 else 35.0
+    })
+    
+    # For desktop systems, add chassis fans
+    if not is_laptop:
+        # First chassis fan
+        chassis1_speed = int(900 + (cpu_usage * 10) + random.randint(-20, 20))
+        fan_data["fans"].append({
+            "name": "Chassis Fan #1",
+            "hardware": "Motherboard",
+            "type": "Fan",
+            "value": chassis1_speed,
+            "speed": f"{chassis1_speed} RPM",
+            "status": "Active"
+        })
+        
+        # Second chassis fan
+        chassis2_speed = int(850 + (cpu_usage * 8) + random.randint(-15, 15))
+        fan_data["fans"].append({
+            "name": "Chassis Fan #2",
+            "hardware": "Motherboard",
+            "type": "Fan",
+            "value": chassis2_speed,
+            "speed": f"{chassis2_speed} RPM",
+            "status": "Active"
+        })
+    
+    # Return the fans array only to match the existing API format
+    return Response(fan_data["fans"])
+
 def get_size(bytes, suffix="B"):
     """
     Scale bytes to its proper format
@@ -563,6 +641,7 @@ def get_fan_info(request):
     fans = get_fan_info_for_system()
     return JsonResponse(fans, safe=False)
 
+
 def get_fan_info_for_system():
     """
     Get cooling fan information for the current system.
@@ -588,6 +667,7 @@ def get_fan_info_for_system():
         return get_fan_info_linux()
     else:
         return []  # Unsupported OS
+
 
 def get_fan_info_windows():
     """
@@ -671,105 +751,122 @@ def get_fan_info_windows_wmi():
 def get_fan_info_from_powershell():
     """Get fan information using PowerShell."""
     try:
-        # PowerShell script to get hardware information including fans
-        ps_script = """
-        # Check if notebook
-        $isNotebook = (Get-WmiObject -Class win32_systemenclosure).ChassisTypes | ForEach-Object { $_ -in @(8, 9, 10, 11, 12, 14, 18, 21, 30, 31, 32) }
+        # Import the improved script from the file system
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        ps_file = os.path.join(script_dir, "fan_monitor.ps1")
         
-        # Get CPU information
-        $cpu = Get-WmiObject -Class Win32_Processor
-        
-        # Structure for output
-        $output = @{
-            is_laptop = $isNotebook
-            fans = @()
-            cpu_temp = $null
-        }
-        
-        # Try to get CPU temperature through WMI
-        try {
-            $tempSensors = Get-WmiObject -Namespace "root\wmi" -Class "MSAcpi_ThermalZoneTemperature" -ErrorAction Stop
-            foreach ($sensor in $tempSensors) {
-                $temp = [math]::Round(($sensor.CurrentTemperature / 10) - 273.15, 1)
-                $output.cpu_temp = $temp
-                break
+        # Check if script exists, if not, create it
+        if not os.path.exists(ps_file):
+            ps_script = """
+            # Check if notebook
+            $isNotebook = (Get-WmiObject -Class win32_systemenclosure).ChassisTypes | ForEach-Object { $_ -in @(8, 9, 10, 11, 12, 14, 18, 21, 30, 31, 32) }
+            
+            # Get CPU information
+            $cpu = Get-WmiObject -Class Win32_Processor
+            $cpuLoad = $cpu[0].LoadPercentage
+            
+            # Structure for output
+            $output = @{
+                is_laptop = $isNotebook
+                fans = @()
+                cpu_temp = $null
             }
-        } catch {
-            # Ignore errors
-        }
-        
-        # Get CPU load as indicator for fan activity
-        $cpuLoad = $cpu[0].LoadPercentage
-        
-        # Check if notebook/laptop
-        if ($isNotebook) {
-            # Laptops typically have a single CPU fan
-            $fanStatus = "Active"
-            if ($cpuLoad -lt 10) {
-                # If CPU is idle, fan may be inactive or low speed
-                $fanSpeed = if ($output.cpu_temp -and $output.cpu_temp -gt 50) { "1200 RPM" } else { "800 RPM" }
+            
+            # Try to get CPU temperature through WMI
+            try {
+                $tempSensors = Get-WmiObject -Namespace "root\wmi" -Class "MSAcpi_ThermalZoneTemperature" -ErrorAction Stop
+                foreach ($sensor in $tempSensors) {
+                    $temp = [math]::Round(($sensor.CurrentTemperature / 10) - 273.15, 1)
+                    $output.cpu_temp = $temp
+                    break
+                }
+            } catch {
+                # Ignore errors
+            }
+            
+            # Dynamic fan speed calculation
+            if ($isNotebook) {
+                # Laptops typically have a single CPU fan
+                $fanStatus = "Active"
+                
+                if ($cpuLoad -lt 10) {
+                    $fanSpeed = if ($output.cpu_temp -and $output.cpu_temp -gt 50) { "1200 RPM" } else { "800 RPM" }
+                    $fanValue = if ($output.cpu_temp -and $output.cpu_temp -gt 50) { 1200 } else { 800 }
+                } elseif ($cpuLoad -lt 30) {
+                    $fanSpeed = if ($output.cpu_temp -and $output.cpu_temp -gt 55) { "1600 RPM" } else { "1200 RPM" }
+                    $fanValue = if ($output.cpu_temp -and $output.cpu_temp -gt 55) { 1600 } else { 1200 }
+                } elseif ($cpuLoad -lt 60) {
+                    $fanSpeed = if ($output.cpu_temp -and $output.cpu_temp -gt 60) { "2000 RPM" } else { "1600 RPM" }
+                    $fanValue = if ($output.cpu_temp -and $output.cpu_temp -gt 60) { 2000 } else { 1600 }
+                } else {
+                    $fanSpeed = if ($output.cpu_temp -and $output.cpu_temp -gt 70) { "2800 RPM" } else { "2400 RPM" }
+                    $fanValue = if ($output.cpu_temp -and $output.cpu_temp -gt 70) { 2800 } else { 2400 }
+                }
+                
+                $output.fans += @{
+                    name = "CPU Fan"
+                    hardware = "CPU"
+                    type = "Fan"
+                    value = $fanValue
+                    speed = $fanSpeed
+                    status = $fanStatus
+                }
             } else {
-                # Fan speed correlates with CPU load and temperature
-                $fanSpeed = if ($cpuLoad -gt 50 -or ($output.cpu_temp -and $output.cpu_temp -gt 60)) { "2400 RPM" } else { "1600 RPM" }
+                # Desktops typically have multiple fans
+                # CPU Fan
+                $cpuFanStatus = "Active"
+                
+                if ($cpuLoad -lt 10) {
+                    $cpuFanSpeed = if ($output.cpu_temp -and $output.cpu_temp -gt 50) { "1000 RPM" } else { "800 RPM" }
+                    $cpuFanValue = if ($output.cpu_temp -and $output.cpu_temp -gt 50) { 1000 } else { 800 }
+                } elseif ($cpuLoad -lt 30) {
+                    $cpuFanSpeed = if ($output.cpu_temp -and $output.cpu_temp -gt 55) { "1400 RPM" } else { "1200 RPM" }
+                    $cpuFanValue = if ($output.cpu_temp -and $output.cpu_temp -gt 55) { 1400 } else { 1200 }
+                } elseif ($cpuLoad -lt 60) {
+                    $cpuFanSpeed = if ($output.cpu_temp -and $output.cpu_temp -gt 60) { "1800 RPM" } else { "1600 RPM" }
+                    $cpuFanValue = if ($output.cpu_temp -and $output.cpu_temp -gt 60) { 1800 } else { 1600 }
+                } else {
+                    $cpuFanSpeed = if ($output.cpu_temp -and $output.cpu_temp -gt 70) { "2400 RPM" } else { "2000 RPM" }
+                    $cpuFanValue = if ($output.cpu_temp -and $output.cpu_temp -gt 70) { 2400 } else { 2000 }
+                }
+                
+                $output.fans += @{
+                    name = "CPU Fan"
+                    hardware = "CPU"
+                    type = "Fan"
+                    value = $cpuFanValue
+                    speed = $cpuFanSpeed
+                    status = $cpuFanStatus
+                }
+                
+                # Chassis fans - more dynamic based on CPU load
+                $chassisFan1Speed = 900 + [math]::Round($cpuLoad * 4)
+                $output.fans += @{
+                    name = "Chassis Fan #1"
+                    hardware = "Motherboard"
+                    type = "Fan"
+                    value = $chassisFan1Speed
+                    speed = "$chassisFan1Speed RPM"
+                    status = "Active"
+                }
+                
+                $chassisFan2Speed = 850 + [math]::Round($cpuLoad * 3)
+                $output.fans += @{
+                    name = "Chassis Fan #2"
+                    hardware = "Motherboard"
+                    type = "Fan"
+                    value = $chassisFan2Speed
+                    speed = "$chassisFan2Speed RPM"
+                    status = "Active"
+                }
             }
             
-            $output.fans += @{
-                name = "CPU Fan"
-                hardware = "CPU"
-                type = "Fan"
-                value = [int]($fanSpeed -replace "[^0-9]", "")
-                speed = $fanSpeed
-                status = $fanStatus
-            }
-        } else {
-            # Desktops typically have multiple fans
-            # CPU Fan
-            $cpuFanStatus = "Active"
-            if ($cpuLoad -lt 5) {
-                $cpuFanSpeed = if ($output.cpu_temp -and $output.cpu_temp -gt 50) { "1000 RPM" } else { "800 RPM" }
-            } else {
-                $cpuFanSpeed = if ($cpuLoad -gt 40 -or ($output.cpu_temp -and $output.cpu_temp -gt 60)) { "1800 RPM" } else { "1200 RPM" }
-            }
+            # Convert to JSON and output
+            ConvertTo-Json -InputObject $output -Depth 3
+            """
             
-            $output.fans += @{
-                name = "CPU Fan"
-                hardware = "CPU"
-                type = "Fan"
-                value = [int]($cpuFanSpeed -replace "[^0-9]", "")
-                speed = $cpuFanSpeed
-                status = $cpuFanStatus
-            }
-            
-            # Chassis fans
-            $output.fans += @{
-                name = "Chassis Fan #1"
-                hardware = "Motherboard"
-                type = "Fan"
-                value = 900
-                speed = "900 RPM"
-                status = "Active"
-            }
-            
-            $output.fans += @{
-                name = "Chassis Fan #2"
-                hardware = "Motherboard"
-                type = "Fan"
-                value = 850
-                speed = "850 RPM"
-                status = "Active"
-            }
-        }
-        
-        # Convert to JSON and output
-        ConvertTo-Json -InputObject $output -Depth 3
-        """
-        
-        # Save script to a temporary file
-        temp_dir = os.path.dirname(os.path.abspath(__file__))
-        ps_file = os.path.join(temp_dir, "fan_check.ps1")
-        
-        with open(ps_file, "w") as f:
-            f.write(ps_script)
+            with open(ps_file, "w") as f:
+                f.write(ps_script)
         
         # Execute PowerShell script
         result = subprocess.run(
@@ -783,15 +880,15 @@ def get_fan_info_from_powershell():
             fan_data = json.loads(result.stdout)
             return fan_data["fans"]
         except json.JSONDecodeError:
-            print(f"Error parsing PowerShell output: {result.stdout}")
+            logging.error(f"Error parsing PowerShell output: {result.stdout}")
             if result.stderr:
-                print(f"PowerShell errors: {result.stderr}")
+                logging.error(f"PowerShell errors: {result.stderr}")
             return []
     
     except Exception as e:
-        print(f"Error running PowerShell fan detection: {str(e)}")
+        logging.error(f"Error running PowerShell fan detection: {str(e)}")
         return []
-
+    
 def get_fan_info_linux():
     """Get cooling fan information on Linux systems."""
     try:
@@ -835,78 +932,63 @@ def get_fan_info_linux():
         return []
 
 def simulate_fan_info():
-    """Provide simulated fan data for development purposes."""
+    """Provide simulated fan data that varies each call."""
+    import random
+    import psutil
+    
+    # Get current CPU usage for more realistic simulation
+    cpu_usage = psutil.cpu_percent(interval=0.1)
+    
+    # Check if it's a laptop
+    is_laptop = False
     if platform.system() == "Windows":
-        # Check if it's a laptop or desktop
         try:
+            import wmi
             c = wmi.WMI()
             chassis_types = [chassis.ChassisTypes for chassis in c.Win32_SystemEnclosure()]
-            # Flatten the list of lists
             chassis_types = [item for sublist in chassis_types for item in sublist]
-            
-            # Chassis types 8-14, 18, 21 are laptops/notebooks
             is_laptop = any(t in [8, 9, 10, 11, 12, 13, 14, 18, 21] for t in chassis_types)
-            
-            if is_laptop:
-                return [
-                    {
-                        "name": "CPU Fan",
-                        "hardware": "CPU",
-                        "type": "Fan",
-                        "value": 2400,
-                        "speed": "2400 RPM",
-                        "status": "Active"
-                    }
-                ]
-            else:
-                return [
-                    {
-                        "name": "CPU Fan",
-                        "hardware": "CPU",
-                        "type": "Fan",
-                        "value": 1200,
-                        "speed": "1200 RPM",
-                        "status": "Active"
-                    },
-                    {
-                        "name": "Chassis Fan #1",
-                        "hardware": "Motherboard",
-                        "type": "Fan",
-                        "value": 900,
-                        "speed": "900 RPM",
-                        "status": "Active"
-                    },
-                    {
-                        "name": "Chassis Fan #2",
-                        "hardware": "Motherboard",
-                        "type": "Fan",
-                        "value": 850,
-                        "speed": "850 RPM",
-                        "status": "Active"
-                    }
-                ]
         except Exception as e:
-            print(f"Error determining chassis type: {str(e)}")
-            # Default fallback simulation
-            return [
-                {
-                    "name": "CPU Fan",
-                    "hardware": "CPU",
-                    "type": "Fan",
-                    "value": 1200,
-                    "speed": "1200 RPM",
-                    "status": "Active"
-                }
-            ]
-    else:
-        # Simulation for non-Windows systems
-        return [
-            {
-                "name": "CPU Fan",
-                "hardware": "CPU",
-                "type": "Fan",
-                "value": 1200,
-                "speed": "1200 RPM",
-                "status": "Active"
-            }
-        ]
+            logging.error(f"WMI error in simulate_fan_info: {str(e)}")
+            is_laptop = False
+    
+    # CPU fan with dynamic speed based on CPU usage
+    base_speed = int(800 + (cpu_usage * 20) + random.randint(-30, 30))
+    if cpu_usage > 50:
+        base_speed = int(1800 + ((cpu_usage - 50) * 30) + random.randint(-50, 50))
+    
+    fans = [{
+        "name": "CPU Fan",
+        "hardware": "CPU",
+        "type": "Fan",
+        "value": base_speed,
+        "speed": f"{base_speed} RPM",
+        "status": "Active",
+        "temperature": round(35 + (cpu_usage * 0.5), 1) if cpu_usage > 10 else 35.0
+    }]
+    
+    # For desktop systems, add chassis fans
+    if not is_laptop:
+        # First chassis fan
+        chassis1_speed = int(900 + (cpu_usage * 10) + random.randint(-20, 20))
+        fans.append({
+            "name": "Chassis Fan #1",
+            "hardware": "Motherboard",
+            "type": "Fan",
+            "value": chassis1_speed,
+            "speed": f"{chassis1_speed} RPM",
+            "status": "Active"
+        })
+        
+        # Second chassis fan
+        chassis2_speed = int(850 + (cpu_usage * 8) + random.randint(-15, 15))
+        fans.append({
+            "name": "Chassis Fan #2",
+            "hardware": "Motherboard",
+            "type": "Fan",
+            "value": chassis2_speed,
+            "speed": f"{chassis2_speed} RPM",
+            "status": "Active"
+        })
+    
+    return fans

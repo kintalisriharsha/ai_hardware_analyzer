@@ -1,6 +1,4 @@
 /* eslint-disable no-unused-vars */
-/** @format */
-
 import React, { useState, useEffect } from "react";
 import {
   Card,
@@ -12,56 +10,79 @@ import {
   Badge,
   Skeleton,
   Alert,
-  ThemeIcon,
+  Button,
+  useMantineTheme
 } from "@mantine/core";
 import {
   IconWind,
   IconAlertTriangle,
   IconCircleCheck,
+  IconRefresh,
+  IconTemperature
 } from "@tabler/icons-react";
-import { getFanInfo } from "../api";
 
 const FanMonitor = () => {
   const [fans, setFans] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [metrics, setMetrics] = useState(null);
   const [anomalyDetected, setAnomalyDetected] = useState(false);
+  const [refreshing, setRefreshing] = useState(false);
+  const [lastUpdated, setLastUpdated] = useState(null);
+  const theme = useMantineTheme();
+
+  // Function to fetch fan data
+  const fetchFanData = async () => {
+    try {
+      setRefreshing(true);
+      
+      // Add cache-busting timestamp
+      const timestamp = new Date().getTime();
+      const response = await fetch(`/api/fans/?t=${timestamp}`);
+      
+      if (!response.ok) {
+        throw new Error(`Server error: ${response.status}`);
+      }
+      
+      const data = await response.json();
+      console.log("Fan data:", data);
+      
+      if (Array.isArray(data)) {
+        setFans(data);
+        
+        // Check for anomalies
+        const hasAnomaly = data.some(
+          (fan) =>
+            fan.status === "Inactive" ||
+            (fan.value && fan.value < 500 && fan.name.includes("CPU"))
+        );
+        setAnomalyDetected(hasAnomaly);
+        setLastUpdated(new Date());
+        setError(null);
+      } else {
+        throw new Error("Invalid data format received");
+      }
+    } catch (err) {
+      console.error("Failed to fetch fan information:", err);
+      setError(`Failed to load fan information: ${err.message}`);
+    } finally {
+      setLoading(false);
+      setRefreshing(false);
+    }
+  };
 
   // Load fan data when component mounts
   useEffect(() => {
-    const fetchFanData = async () => {
-      try {
-        setLoading(true);
-        const response = await getFanInfo();
-        console.log("Fan data response:", response);
-        
-        // Make sure you're setting the fans state with the response data
-        setFans(response.data);
-        
-        // Check for anomalies only if there are fans
-        if (response.data && response.data.length > 0) {
-          const hasAnomaly = response.data.some(
-            (fan) =>
-              fan.status === "Inactive" ||
-              (fan.value && fan.value < 500 && fan.name.includes("CPU"))
-          );
-          setAnomalyDetected(hasAnomaly);
-        }
-      } catch (err) {
-        console.error("Failed to fetch fan information:", err);
-        setError("Failed to load fan information");
-      } finally {
-        setLoading(false);
-      }
-    };
     fetchFanData();
 
-    // Set up polling for updated fan data every 30 seconds
-    const interval = setInterval(fetchFanData, 30000);
-
+    // Set up polling for updated fan data every 5 seconds
+    const interval = setInterval(fetchFanData, 5000);
     return () => clearInterval(interval);
   }, []);
+
+  // Handle manual refresh
+  const handleRefresh = () => {
+    fetchFanData();
+  };
 
   // Function to get fan speed color based on RPM
   const getFanSpeedColor = (speed) => {
@@ -113,8 +134,26 @@ const FanMonitor = () => {
   return (
     <Card shadow="sm" withBorder>
       <Group position="apart" mb="md">
-        <Title order={4}>Cooling System</Title>
-        <IconWind size={24} stroke={1.5} />
+        <Group>
+          <IconWind size={24} stroke={1.5} />
+          <Title order={4}>Cooling System</Title>
+        </Group>
+        <Group>
+          {lastUpdated && (
+            <Text size="xs" color="dimmed">
+              Last updated: {lastUpdated.toLocaleTimeString()}
+            </Text>
+          )}
+          <Button
+            variant="light"
+            size="xs"
+            onClick={handleRefresh}
+            loading={refreshing}
+            leftIcon={<IconRefresh size={16} />}
+          >
+            Refresh
+          </Button>
+        </Group>
       </Group>
 
       {error && (
@@ -123,6 +162,8 @@ const FanMonitor = () => {
           title="Error"
           color="red"
           mb="md"
+          withCloseButton
+          onClose={() => setError(null)}
         >
           {error}
         </Alert>
@@ -158,6 +199,14 @@ const FanMonitor = () => {
                 <Text size="sm" color="dimmed">
                   {fan.hardware || "System"}
                 </Text>
+                {fan.temperature && (
+                  <Group spacing={4}>
+                    <IconTemperature size={14} />
+                    <Text size="xs" color="dimmed">
+                      {fan.temperature}°C
+                    </Text>
+                  </Group>
+                )}
               </Stack>
 
               <Group spacing="md">
@@ -198,12 +247,6 @@ const FanMonitor = () => {
             >
               All cooling fans are functioning properly.
             </Alert>
-          )}
-
-          {metrics && metrics.cpu_temp > 0 && (
-            <Text size="sm" color="dimmed" align="center" mt="md">
-              CPU Temperature: {metrics.cpu_temp.toFixed(1)}°C
-            </Text>
           )}
         </>
       ) : (

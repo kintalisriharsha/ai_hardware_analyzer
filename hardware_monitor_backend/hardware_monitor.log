@@ -1892,3 +1892,490 @@ INFO 2025-04-02 12:49:21,423 basehttp 18472 22548 "GET /api/dashboard/ HTTP/1.1"
 INFO 2025-04-02 12:49:21,614 basehttp 18472 22548 "GET /api/dashboard/ HTTP/1.1" 200 569
 INFO 2025-04-02 12:49:23,123 basehttp 18472 22400 "GET /api/fans/ HTTP/1.1" 200 109
 INFO 2025-04-02 12:49:24,792 basehttp 18472 22400 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:30:11,504 autoreload 24192 24268 Watching for file changes with StatReloader
+INFO 2025-04-03 15:30:42,828 basehttp 24192 3980 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:30:42,839 basehttp 24192 3980 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:30:42,860 basehttp 24192 24072 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-03 15:30:42,872 basehttp 24192 24072 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-03 15:30:44,244 basehttp 24192 24260 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-03 15:30:44,398 basehttp 24192 24260 "GET /api/dashboard/ HTTP/1.1" 200 568
+INFO 2025-04-03 15:30:45,567 basehttp 24192 11724 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:30:47,088 basehttp 24192 11724 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:31:09,655 basehttp 24192 18236 "GET /api/metrics/?page=1&start_date=2025-03-27T10:01:09.252Z HTTP/1.1" 200 3546
+INFO 2025-04-03 15:31:09,661 basehttp 24192 20160 "GET /api/metrics/?page=1&start_date=2025-03-27T10:01:09.260Z HTTP/1.1" 200 3546
+INFO 2025-04-03 15:31:09,667 basehttp 24192 1712 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 807
+INFO 2025-04-03 15:31:09,679 basehttp 24192 1712 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 807
+INFO 2025-04-03 15:31:21,335 basehttp 24192 21672 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-03 15:31:21,345 basehttp 24192 21672 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-03 15:31:23,442 basehttp 24192 8316 "GET /api/system-info/ HTTP/1.1" 200 1672
+INFO 2025-04-03 15:31:25,065 basehttp 24192 8316 "GET /api/system-info/ HTTP/1.1" 200 1675
+INFO 2025-04-03 15:31:37,420 basehttp 24192 23208 "GET /api/metrics/statistics/?days=90 HTTP/1.1" 200 807
+INFO 2025-04-03 15:31:37,434 basehttp 24192 23208 "GET /api/metrics/statistics/?days=90 HTTP/1.1" 200 807
+INFO 2025-04-03 15:35:06,038 basehttp 24192 24460 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-03 15:35:06,048 basehttp 24192 10172 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:35:06,056 basehttp 24192 10172 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:35:06,056 basehttp 24192 24460 "GET /api/metrics/latest/ HTTP/1.1" 200 317
+INFO 2025-04-03 15:35:06,198 basehttp 24192 16064 "GET /api/dashboard/ HTTP/1.1" 200 567
+INFO 2025-04-03 15:35:06,345 basehttp 24192 16064 "GET /api/dashboard/ HTTP/1.1" 200 567
+INFO 2025-04-03 15:35:07,646 basehttp 24192 23612 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:35:09,148 basehttp 24192 23612 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:35:20,772 basehttp 24192 23612 "POST /api/metrics/collect/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:35:20,783 basehttp 24192 24460 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:35:20,783 basehttp 24192 23612 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:35:20,900 basehttp 24192 16064 "GET /api/dashboard/ HTTP/1.1" 200 582
+INFO 2025-04-03 15:35:22,060 basehttp 24192 16064 "POST /api/metrics/collect/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:35:22,073 basehttp 24192 16064 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:35:22,075 basehttp 24192 24460 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:35:22,193 basehttp 24192 23612 "GET /api/dashboard/ HTTP/1.1" 200 597
+INFO 2025-04-03 15:35:36,022 basehttp 24192 6780 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:35:36,023 basehttp 24192 24036 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:35:36,146 basehttp 24192 10756 "GET /api/dashboard/ HTTP/1.1" 200 597
+INFO 2025-04-03 15:35:37,559 basehttp 24192 21936 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:36:06,016 basehttp 24192 5876 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:36:06,030 basehttp 24192 15808 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:36:06,156 basehttp 24192 14992 "GET /api/dashboard/ HTTP/1.1" 200 597
+INFO 2025-04-03 15:36:07,621 basehttp 24192 22972 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:36:34,298 basehttp 24192 15692 "POST /api/metrics/collect/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:36:34,365 basehttp 24192 15692 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:36:34,384 basehttp 24192 15692 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:36:34,447 basehttp 24192 4940 "GET /api/dashboard/ HTTP/1.1" 200 612
+INFO 2025-04-03 15:36:35,705 basehttp 24192 15692 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:36:35,724 basehttp 24192 15692 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:36:35,922 basehttp 24192 5124 "GET /api/dashboard/ HTTP/1.1" 200 613
+INFO 2025-04-03 15:36:37,836 basehttp 24192 4940 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:37:06,650 basehttp 24192 21712 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:37:06,690 basehttp 24192 4296 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:37:06,852 basehttp 24192 16760 "GET /api/dashboard/ HTTP/1.1" 200 613
+INFO 2025-04-03 15:37:08,524 basehttp 24192 22060 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:37:36,504 basehttp 24192 16760 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:37:36,554 basehttp 24192 4296 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:37:36,689 basehttp 24192 16760 "GET /api/dashboard/ HTTP/1.1" 200 613
+INFO 2025-04-03 15:37:38,056 basehttp 24192 22060 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:38:55,293 basehttp 24192 21712 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:38:55,296 basehttp 24192 16760 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:38:55,426 basehttp 24192 4296 "GET /api/dashboard/ HTTP/1.1" 200 613
+INFO 2025-04-03 15:38:56,937 basehttp 24192 22060 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:39:56,198 basehttp 24192 19332 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:39:56,206 basehttp 24192 23304 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:39:56,417 basehttp 24192 19460 "GET /api/dashboard/ HTTP/1.1" 200 612
+INFO 2025-04-03 15:39:58,870 basehttp 24192 24080 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:40:55,607 basehttp 24192 16620 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:40:55,612 basehttp 24192 12796 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:40:55,765 basehttp 24192 20148 "GET /api/dashboard/ HTTP/1.1" 200 612
+INFO 2025-04-03 15:40:57,261 basehttp 24192 23084 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:41:55,286 basehttp 24192 16620 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:41:55,291 basehttp 24192 20148 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:41:55,420 basehttp 24192 12796 "GET /api/dashboard/ HTTP/1.1" 200 613
+INFO 2025-04-03 15:41:56,884 basehttp 24192 23084 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:42:55,524 basehttp 24192 12796 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:42:55,585 basehttp 24192 12796 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:42:55,828 basehttp 24192 20148 "GET /api/dashboard/ HTTP/1.1" 200 613
+INFO 2025-04-03 15:42:57,689 basehttp 24192 23084 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:43:55,291 basehttp 24192 20148 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:43:55,357 basehttp 24192 12796 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:43:55,486 basehttp 24192 20148 "GET /api/dashboard/ HTTP/1.1" 200 613
+INFO 2025-04-03 15:43:57,102 basehttp 24192 23084 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:44:55,295 basehttp 24192 16620 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:44:55,296 basehttp 24192 20148 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:44:55,428 basehttp 24192 12796 "GET /api/dashboard/ HTTP/1.1" 200 613
+INFO 2025-04-03 15:44:56,845 basehttp 24192 23084 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:45:55,294 basehttp 24192 12796 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:45:55,294 basehttp 24192 16620 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:45:55,425 basehttp 24192 20148 "GET /api/dashboard/ HTTP/1.1" 200 613
+INFO 2025-04-03 15:45:56,844 basehttp 24192 23084 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:46:55,291 basehttp 24192 20148 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:46:55,303 basehttp 24192 12796 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:46:55,409 basehttp 24192 16620 "GET /api/dashboard/ HTTP/1.1" 200 613
+INFO 2025-04-03 15:46:56,852 basehttp 24192 23084 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:47:55,312 basehttp 24192 16620 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:47:55,465 basehttp 24192 12796 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:47:55,589 basehttp 24192 16620 "GET /api/dashboard/ HTTP/1.1" 200 613
+INFO 2025-04-03 15:47:56,956 basehttp 24192 23084 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:48:55,284 basehttp 24192 16620 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:48:55,284 basehttp 24192 20148 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:48:55,409 basehttp 24192 12796 "GET /api/dashboard/ HTTP/1.1" 200 613
+INFO 2025-04-03 15:48:56,836 basehttp 24192 23084 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:49:55,315 basehttp 24192 12796 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:49:55,391 basehttp 24192 20148 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:49:55,550 basehttp 24192 12796 "GET /api/dashboard/ HTTP/1.1" 200 613
+INFO 2025-04-03 15:49:57,047 basehttp 24192 23084 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:50:55,290 basehttp 24192 12796 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:50:55,307 basehttp 24192 20148 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:50:55,440 basehttp 24192 12796 "GET /api/dashboard/ HTTP/1.1" 200 613
+INFO 2025-04-03 15:50:56,873 basehttp 24192 23084 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:51:55,777 basehttp 24192 17268 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:51:55,786 basehttp 24192 1756 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:51:56,247 basehttp 24192 14264 "GET /api/dashboard/ HTTP/1.1" 200 612
+INFO 2025-04-03 15:51:57,680 basehttp 24192 3992 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:52:55,793 basehttp 24192 23680 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:52:55,813 basehttp 24192 21236 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:52:56,286 basehttp 24192 18136 "GET /api/dashboard/ HTTP/1.1" 200 613
+INFO 2025-04-03 15:52:57,903 basehttp 24192 24040 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:53:34,900 basehttp 24192 3204 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:53:34,935 basehttp 24192 16140 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:53:35,085 basehttp 24192 8712 "GET /api/dashboard/ HTTP/1.1" 200 613
+INFO 2025-04-03 15:53:36,682 basehttp 24192 21532 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:54:06,286 basehttp 24192 3204 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 15:54:06,286 basehttp 24192 8712 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 15:54:06,408 basehttp 24192 16140 "GET /api/dashboard/ HTTP/1.1" 200 612
+INFO 2025-04-03 15:54:07,853 basehttp 24192 21532 "GET /api/fans/ HTTP/1.1" 200 109
+WARNING 2025-04-03 15:54:36,357 log 24192 16140 Too Many Requests: /api/metrics/latest/
+WARNING 2025-04-03 15:54:36,360 log 24192 8712 Too Many Requests: /api/dashboard/
+WARNING 2025-04-03 15:54:36,365 basehttp 24192 16140 "GET /api/metrics/latest/ HTTP/1.1" 429 72
+WARNING 2025-04-03 15:54:36,365 basehttp 24192 8712 "GET /api/dashboard/ HTTP/1.1" 429 72
+WARNING 2025-04-03 15:54:36,503 log 24192 8712 Too Many Requests: /api/issues/unresolved/
+WARNING 2025-04-03 15:54:36,503 basehttp 24192 8712 "GET /api/issues/unresolved/ HTTP/1.1" 429 72
+INFO 2025-04-03 15:54:37,861 basehttp 24192 21532 "GET /api/fans/ HTTP/1.1" 200 109
+WARNING 2025-04-03 15:55:30,134 log 24192 16140 Too Many Requests: /api/dashboard/
+WARNING 2025-04-03 15:55:30,136 log 24192 3204 Too Many Requests: /api/issues/unresolved/
+WARNING 2025-04-03 15:55:30,148 log 24192 8712 Too Many Requests: /api/metrics/latest/
+WARNING 2025-04-03 15:55:30,173 basehttp 24192 3204 "GET /api/issues/unresolved/ HTTP/1.1" 429 72
+WARNING 2025-04-03 15:55:30,181 basehttp 24192 16140 "GET /api/dashboard/ HTTP/1.1" 429 72
+WARNING 2025-04-03 15:55:30,173 basehttp 24192 8712 "GET /api/metrics/latest/ HTTP/1.1" 429 72
+INFO 2025-04-03 15:55:31,812 basehttp 24192 21532 "GET /api/fans/ HTTP/1.1" 200 109
+WARNING 2025-04-03 15:55:35,689 log 24192 3204 Too Many Requests: /api/metrics/latest/
+WARNING 2025-04-03 15:55:35,693 log 24192 8712 Too Many Requests: /api/dashboard/
+WARNING 2025-04-03 15:55:35,695 log 24192 16140 Too Many Requests: /api/issues/unresolved/
+WARNING 2025-04-03 15:55:35,699 basehttp 24192 3204 "GET /api/metrics/latest/ HTTP/1.1" 429 72
+WARNING 2025-04-03 15:55:35,700 basehttp 24192 16140 "GET /api/issues/unresolved/ HTTP/1.1" 429 72
+WARNING 2025-04-03 15:55:35,705 basehttp 24192 8712 "GET /api/dashboard/ HTTP/1.1" 429 72
+INFO 2025-04-03 15:55:37,286 basehttp 24192 21532 "GET /api/fans/ HTTP/1.1" 200 109
+WARNING 2025-04-03 15:55:40,838 log 24192 21532 Too Many Requests: /api/metrics/statistics/
+WARNING 2025-04-03 15:55:40,844 log 24192 16140 Too Many Requests: /api/metrics/
+WARNING 2025-04-03 15:55:40,873 basehttp 24192 16140 "GET /api/metrics/?page=1&start_date=2025-03-27T10:25:40.782Z HTTP/1.1" 429 72
+WARNING 2025-04-03 15:55:40,847 log 24192 8712 Too Many Requests: /api/metrics/
+WARNING 2025-04-03 15:55:40,874 basehttp 24192 21532 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 429 72
+WARNING 2025-04-03 15:55:40,884 log 24192 21532 Too Many Requests: /api/metrics/statistics/
+WARNING 2025-04-03 15:55:40,885 basehttp 24192 8712 "GET /api/metrics/?page=1&start_date=2025-03-27T10:25:40.781Z HTTP/1.1" 429 72
+WARNING 2025-04-03 15:55:40,885 basehttp 24192 21532 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 429 72
+WARNING 2025-04-03 15:55:59,513 log 24192 21532 Too Many Requests: /api/metrics/
+WARNING 2025-04-03 15:55:59,514 log 24192 8712 Too Many Requests: /api/metrics/
+WARNING 2025-04-03 15:55:59,516 log 24192 16140 Too Many Requests: /api/metrics/statistics/
+WARNING 2025-04-03 15:55:59,524 basehttp 24192 8712 "GET /api/metrics/?page=1&start_date=2025-03-27T10:25:59.401Z HTTP/1.1" 429 72
+WARNING 2025-04-03 15:55:59,525 basehttp 24192 21532 "GET /api/metrics/?page=1&start_date=2025-03-27T10:25:59.398Z HTTP/1.1" 429 72
+WARNING 2025-04-03 15:55:59,526 basehttp 24192 16140 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 429 72
+WARNING 2025-04-03 15:55:59,567 log 24192 16140 Too Many Requests: /api/metrics/statistics/
+WARNING 2025-04-03 15:55:59,571 basehttp 24192 16140 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 429 72
+WARNING 2025-04-03 15:56:36,027 log 24192 21936 Too Many Requests: /api/metrics/statistics/
+WARNING 2025-04-03 15:56:36,028 basehttp 24192 21936 "GET /api/metrics/statistics/ HTTP/1.1" 429 11648
+INFO 2025-04-03 15:56:36,244 basehttp 24192 15556 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2025-04-03 15:56:36,248 basehttp 24192 12808 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2025-04-03 15:56:36,258 basehttp 24192 21936 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2025-04-03 15:56:36,306 basehttp 24192 15556 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2025-04-03 15:56:36,306 basehttp 24192 15468 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2025-04-03 15:56:36,310 basehttp 24192 18152 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2025-04-03 15:56:36,342 basehttp 24192 12808 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2025-04-03 15:56:36,343 basehttp 24192 21936 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2025-04-03 15:56:36,352 basehttp 24192 18152 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2025-04-03 15:56:36,404 basehttp 24192 15556 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2025-04-03 15:56:36,459 basehttp 24192 20356 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+WARNING 2025-04-03 15:56:36,771 log 24192 20356 Not Found: /favicon.ico
+WARNING 2025-04-03 15:56:36,772 basehttp 24192 20356 "GET /favicon.ico HTTP/1.1" 404 2232
+WARNING 2025-04-03 15:56:51,757 log 24192 21532 Too Many Requests: /api/metrics/latest/
+WARNING 2025-04-03 15:56:51,758 log 24192 8712 Too Many Requests: /api/dashboard/
+WARNING 2025-04-03 15:56:51,760 log 24192 3204 Too Many Requests: /api/issues/unresolved/
+WARNING 2025-04-03 15:56:51,762 basehttp 24192 21532 "GET /api/metrics/latest/ HTTP/1.1" 429 72
+WARNING 2025-04-03 15:56:51,770 basehttp 24192 3204 "GET /api/issues/unresolved/ HTTP/1.1" 429 72
+WARNING 2025-04-03 15:56:51,770 basehttp 24192 8712 "GET /api/dashboard/ HTTP/1.1" 429 72
+WARNING 2025-04-03 15:56:51,783 log 24192 21532 Too Many Requests: /api/metrics/latest/
+WARNING 2025-04-03 15:56:51,801 basehttp 24192 21532 "GET /api/metrics/latest/ HTTP/1.1" 429 72
+WARNING 2025-04-03 15:56:51,798 log 24192 8712 Too Many Requests: /api/dashboard/
+WARNING 2025-04-03 15:56:51,804 basehttp 24192 8712 "GET /api/dashboard/ HTTP/1.1" 429 72
+WARNING 2025-04-03 15:56:51,786 log 24192 3204 Too Many Requests: /api/issues/unresolved/
+WARNING 2025-04-03 15:56:51,837 basehttp 24192 3204 "GET /api/issues/unresolved/ HTTP/1.1" 429 72
+INFO 2025-04-03 15:56:54,072 basehttp 24192 16140 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:56:56,026 basehttp 24192 16140 "GET /api/fans/ HTTP/1.1" 200 109
+WARNING 2025-04-03 15:57:22,584 log 24192 21624 Too Many Requests: /api/metrics/latest/
+WARNING 2025-04-03 15:57:22,586 basehttp 24192 21624 "GET /api/metrics/latest/ HTTP/1.1" 429 72
+WARNING 2025-04-03 15:57:22,593 log 24192 21780 Too Many Requests: /api/dashboard/
+WARNING 2025-04-03 15:57:22,594 basehttp 24192 21780 "GET /api/dashboard/ HTTP/1.1" 429 72
+WARNING 2025-04-03 15:57:22,601 log 24192 7896 Too Many Requests: /api/issues/unresolved/
+WARNING 2025-04-03 15:57:22,602 basehttp 24192 7896 "GET /api/issues/unresolved/ HTTP/1.1" 429 72
+INFO 2025-04-03 15:57:24,402 basehttp 24192 20044 "GET /api/fans/ HTTP/1.1" 200 109
+WARNING 2025-04-03 15:57:55,947 log 24192 11296 Too Many Requests: /api/metrics/latest/
+WARNING 2025-04-03 15:57:55,953 basehttp 24192 11296 "GET /api/metrics/latest/ HTTP/1.1" 429 72
+WARNING 2025-04-03 15:57:55,957 log 24192 23572 Too Many Requests: /api/dashboard/
+WARNING 2025-04-03 15:57:55,963 basehttp 24192 23572 "GET /api/dashboard/ HTTP/1.1" 429 72
+WARNING 2025-04-03 15:57:55,968 log 24192 4404 Too Many Requests: /api/issues/unresolved/
+WARNING 2025-04-03 15:57:55,971 basehttp 24192 4404 "GET /api/issues/unresolved/ HTTP/1.1" 429 72
+INFO 2025-04-03 15:57:58,086 basehttp 24192 2352 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:58:01,327 basehttp 24192 2352 "GET /api/fans/ HTTP/1.1" 200 109
+WARNING 2025-04-03 15:58:22,593 log 24192 21644 Too Many Requests: /api/metrics/latest/
+WARNING 2025-04-03 15:58:22,595 log 24192 21576 Too Many Requests: /api/dashboard/
+WARNING 2025-04-03 15:58:22,597 basehttp 24192 21644 "GET /api/metrics/latest/ HTTP/1.1" 429 72
+WARNING 2025-04-03 15:58:22,601 log 24192 21304 Too Many Requests: /api/issues/unresolved/
+WARNING 2025-04-03 15:58:22,601 basehttp 24192 21576 "GET /api/dashboard/ HTTP/1.1" 429 72
+WARNING 2025-04-03 15:58:22,601 basehttp 24192 21304 "GET /api/issues/unresolved/ HTTP/1.1" 429 72
+INFO 2025-04-03 15:58:32,139 basehttp 24192 21304 "GET /api/fans/ HTTP/1.1" 200 109
+WARNING 2025-04-03 15:58:52,270 log 24192 21304 Too Many Requests: /api/metrics/latest/
+WARNING 2025-04-03 15:58:52,270 basehttp 24192 21304 "GET /api/metrics/latest/ HTTP/1.1" 429 72
+WARNING 2025-04-03 15:58:52,274 log 24192 21304 Too Many Requests: /api/issues/unresolved/
+WARNING 2025-04-03 15:58:52,274 basehttp 24192 21304 "GET /api/issues/unresolved/ HTTP/1.1" 429 72
+WARNING 2025-04-03 15:58:52,277 log 24192 21304 Too Many Requests: /api/dashboard/
+WARNING 2025-04-03 15:58:52,278 basehttp 24192 21304 "GET /api/dashboard/ HTTP/1.1" 429 72
+INFO 2025-04-03 15:59:02,870 basehttp 24192 21304 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 15:59:32,317 basehttp 24192 11100 "GET /api/fans/ HTTP/1.1" 200 109
+WARNING 2025-04-03 15:59:55,863 log 24192 15636 Too Many Requests: /api/metrics/latest/
+WARNING 2025-04-03 15:59:55,865 basehttp 24192 15636 "GET /api/metrics/latest/ HTTP/1.1" 429 72
+WARNING 2025-04-03 15:59:55,871 log 24192 15636 Too Many Requests: /api/dashboard/
+WARNING 2025-04-03 15:59:55,873 basehttp 24192 15636 "GET /api/dashboard/ HTTP/1.1" 429 72
+WARNING 2025-04-03 15:59:55,877 log 24192 15636 Too Many Requests: /api/issues/unresolved/
+WARNING 2025-04-03 15:59:55,879 basehttp 24192 15636 "GET /api/issues/unresolved/ HTTP/1.1" 429 72
+WARNING 2025-04-03 16:00:56,312 log 24192 2200 Too Many Requests: /api/metrics/latest/
+WARNING 2025-04-03 16:00:56,314 basehttp 24192 2200 "GET /api/metrics/latest/ HTTP/1.1" 429 72
+WARNING 2025-04-03 16:00:56,382 log 24192 19532 Too Many Requests: /api/dashboard/
+WARNING 2025-04-03 16:00:56,392 log 24192 4152 Too Many Requests: /api/issues/unresolved/
+WARNING 2025-04-03 16:00:56,394 basehttp 24192 19532 "GET /api/dashboard/ HTTP/1.1" 429 72
+WARNING 2025-04-03 16:00:56,396 basehttp 24192 4152 "GET /api/issues/unresolved/ HTTP/1.1" 429 72
+INFO 2025-04-03 16:00:59,522 basehttp 24192 11000 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:01:45,507 autoreload 24192 24268 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-03 16:01:47,890 autoreload 20800 11720 Watching for file changes with StatReloader
+INFO 2025-04-03 16:01:55,637 basehttp 20800 15232 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:01:55,642 basehttp 20800 456 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:01:56,106 basehttp 20800 18744 "GET /api/dashboard/ HTTP/1.1" 200 612
+INFO 2025-04-03 16:01:57,573 basehttp 20800 14292 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:02:01,417 autoreload 20800 11720 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-03 16:02:02,412 autoreload 22840 23760 Watching for file changes with StatReloader
+INFO 2025-04-03 16:02:31,606 autoreload 22840 23760 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-03 16:02:32,580 autoreload 14280 2428 Watching for file changes with StatReloader
+INFO 2025-04-03 16:02:38,960 autoreload 14280 2428 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-03 16:02:40,755 autoreload 23592 15744 Watching for file changes with StatReloader
+INFO 2025-04-03 16:02:58,197 basehttp 23592 24220 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:02:58,310 basehttp 23592 4664 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:02:59,068 basehttp 23592 24220 "GET /api/dashboard/ HTTP/1.1" 200 613
+INFO 2025-04-03 16:03:08,539 basehttp 23592 7968 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:03:10,971 basehttp 23592 7968 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:03:22,286 basehttp 23592 7968 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:03:22,462 basehttp 23592 7968 "GET /api/dashboard/ HTTP/1.1" 200 613
+INFO 2025-04-03 16:03:22,470 basehttp 23592 7968 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:03:32,438 basehttp 23592 19212 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:03:51,475 basehttp 23592 19032 "GET /api/fans HTTP/1.1" 301 0
+INFO 2025-04-03 16:03:52,595 basehttp 23592 832 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:03:52,599 basehttp 23592 22352 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:03:52,723 basehttp 23592 23176 "GET /api/dashboard/ HTTP/1.1" 200 612
+INFO 2025-04-03 16:03:52,998 basehttp 23592 19964 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:04:02,244 basehttp 23592 20148 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:04:22,603 basehttp 23592 20052 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:04:22,607 basehttp 23592 3924 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:04:22,727 basehttp 23592 15532 "GET /api/dashboard/ HTTP/1.1" 200 612
+INFO 2025-04-03 16:04:32,492 basehttp 23592 16872 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:04:52,608 basehttp 23592 22488 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:04:52,611 basehttp 23592 24400 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:04:52,732 basehttp 23592 9240 "GET /api/dashboard/ HTTP/1.1" 200 612
+INFO 2025-04-03 16:05:02,431 basehttp 23592 9240 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:05:22,585 basehttp 23592 16392 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:05:22,593 basehttp 23592 21216 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:05:22,712 basehttp 23592 21108 "GET /api/dashboard/ HTTP/1.1" 200 612
+INFO 2025-04-03 16:05:31,940 basehttp 23592 21108 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:05:47,261 autoreload 23592 15744 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-03 16:05:49,439 autoreload 23932 6772 Watching for file changes with StatReloader
+INFO 2025-04-03 16:05:56,039 basehttp 23932 1572 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:05:56,046 basehttp 23932 23400 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:05:56,492 basehttp 23932 11124 "GET /api/dashboard/ HTTP/1.1" 200 612
+INFO 2025-04-03 16:06:33,872 basehttp 23932 21040 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:06:33,879 basehttp 23932 16732 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:06:34,023 basehttp 23932 8888 "GET /api/dashboard/ HTTP/1.1" 200 612
+INFO 2025-04-03 16:06:35,639 basehttp 23932 18844 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:06:50,468 basehttp 23932 13888 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:06:50,477 basehttp 23932 24192 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:06:50,482 basehttp 23932 13888 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:06:50,487 basehttp 23932 24192 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:06:50,621 basehttp 23932 9916 "GET /api/dashboard/ HTTP/1.1" 200 613
+INFO 2025-04-03 16:06:50,750 basehttp 23932 9916 "GET /api/dashboard/ HTTP/1.1" 200 612
+INFO 2025-04-03 16:06:52,061 basehttp 23932 1552 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:06:53,572 basehttp 23932 1552 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:06:59,375 basehttp 23932 1552 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 945
+INFO 2025-04-03 16:06:59,382 basehttp 23932 1552 "GET /api/metrics/?page=1&start_date=2025-03-27T10:36:59.311Z HTTP/1.1" 200 4488
+INFO 2025-04-03 16:06:59,393 basehttp 23932 1552 "GET /api/metrics/?page=1&start_date=2025-03-27T10:36:59.312Z HTTP/1.1" 200 4488
+INFO 2025-04-03 16:06:59,414 basehttp 23932 1552 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 945
+INFO 2025-04-03 16:07:05,061 basehttp 23932 2104 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:07:05,067 basehttp 23932 2104 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:07:07,458 basehttp 23932 12396 "GET /api/system-info/ HTTP/1.1" 200 1674
+INFO 2025-04-03 16:07:09,091 basehttp 23932 12396 "GET /api/system-info/ HTTP/1.1" 200 1675
+INFO 2025-04-03 16:07:10,463 basehttp 23932 2104 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:07:10,474 basehttp 23932 2104 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:07:10,504 basehttp 23932 2104 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:07:10,517 basehttp 23932 2104 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:07:10,600 basehttp 23932 22056 "GET /api/dashboard/ HTTP/1.1" 200 613
+INFO 2025-04-03 16:07:10,765 basehttp 23932 22056 "GET /api/dashboard/ HTTP/1.1" 200 612
+INFO 2025-04-03 16:07:12,086 basehttp 23932 12396 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:07:13,717 basehttp 23932 12396 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:07:16,744 basehttp 23932 20448 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:07:21,722 basehttp 23932 20448 "GET /api/metrics/statistics/ HTTP/1.1" 200 13566
+INFO 2025-04-03 16:07:22,749 basehttp 23932 12396 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:07:33,166 basehttp 23932 16928 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:07:41,600 basehttp 23932 15756 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:07:41,606 basehttp 23932 22104 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:07:41,723 basehttp 23932 16108 "GET /api/dashboard/ HTTP/1.1" 200 612
+INFO 2025-04-03 16:07:43,456 basehttp 23932 276 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:07:53,165 basehttp 23932 23228 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:08:03,061 basehttp 23932 19840 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:08:11,606 basehttp 23932 19072 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:08:11,610 basehttp 23932 3768 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:08:11,730 basehttp 23932 4336 "GET /api/dashboard/ HTTP/1.1" 200 612
+INFO 2025-04-03 16:08:13,175 basehttp 23932 1552 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:08:23,336 basehttp 23932 23456 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:08:33,412 basehttp 23932 21468 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:08:41,620 basehttp 23932 9916 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:08:41,626 basehttp 23932 20936 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:08:41,769 basehttp 23932 3808 "GET /api/dashboard/ HTTP/1.1" 200 612
+INFO 2025-04-03 16:08:57,367 basehttp 23932 23260 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:09:11,616 basehttp 23932 18420 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:09:11,621 basehttp 23932 15376 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:09:11,761 basehttp 23932 13592 "GET /api/dashboard/ HTTP/1.1" 200 612
+INFO 2025-04-03 16:09:55,597 basehttp 23932 11496 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:09:55,602 basehttp 23932 14420 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:09:55,735 basehttp 23932 23572 "GET /api/dashboard/ HTTP/1.1" 200 612
+INFO 2025-04-03 16:09:57,208 basehttp 23932 5600 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:10:55,616 basehttp 23932 14984 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:10:55,625 basehttp 23932 22564 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:10:55,842 basehttp 23932 1152 "GET /api/dashboard/ HTTP/1.1" 200 613
+INFO 2025-04-03 16:10:57,489 basehttp 23932 18932 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:11:55,756 basehttp 23932 23376 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:11:55,768 basehttp 23932 7460 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:11:55,920 basehttp 23932 16196 "GET /api/dashboard/ HTTP/1.1" 200 612
+INFO 2025-04-03 16:11:58,019 basehttp 23932 11008 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:12:23,508 autoreload 23932 6772 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-03 16:12:26,385 autoreload 18740 23484 Watching for file changes with StatReloader
+INFO 2025-04-03 16:12:42,725 autoreload 18740 23484 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-03 16:12:44,726 autoreload 22556 8528 Watching for file changes with StatReloader
+INFO 2025-04-03 16:12:55,606 basehttp 22556 20644 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:12:55,617 basehttp 22556 12644 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:12:56,058 basehttp 22556 10076 "GET /api/dashboard/ HTTP/1.1" 200 612
+INFO 2025-04-03 16:12:57,274 basehttp 22556 23420 "GET /api/fans/ HTTP/1.1" 200 109
+INFO 2025-04-03 16:13:13,540 autoreload 22556 8528 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\views.py changed, reloading.
+INFO 2025-04-03 16:13:14,621 autoreload 5372 12848 Watching for file changes with StatReloader
+INFO 2025-04-03 16:13:34,235 basehttp 5372 1756 "GET /api/fans/?t=1743677011300 HTTP/1.1" 200 109
+INFO 2025-04-03 16:13:38,889 basehttp 5372 7716 "GET /api/fans/?t=1743677017276 HTTP/1.1" 200 109
+INFO 2025-04-03 16:13:43,880 basehttp 5372 17096 "GET /api/fans/?t=1743677022269 HTTP/1.1" 200 109
+INFO 2025-04-03 16:13:48,794 basehttp 5372 24196 "GET /api/fans/?t=1743677027272 HTTP/1.1" 200 109
+INFO 2025-04-03 16:13:55,615 basehttp 5372 24100 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:13:55,617 basehttp 5372 19032 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:13:55,994 basehttp 5372 19012 "GET /api/dashboard/ HTTP/1.1" 200 613
+INFO 2025-04-03 16:13:56,970 basehttp 5372 14152 "GET /api/fans/?t=1743677035281 HTTP/1.1" 200 109
+INFO 2025-04-03 16:14:11,283 autoreload 5372 12848 C:\Users\91984\Downloads\CSSS\hardware_monitor_project\hardware_monitor_backend\hardware_api\urls.py changed, reloading.
+INFO 2025-04-03 16:14:12,954 autoreload 20432 19644 Watching for file changes with StatReloader
+ERROR 2025-04-03 16:14:30,434 views 20432 9140 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:14:30,437 basehttp 20432 9140 "GET /api/fans/?t=1743677070293 HTTP/1.1" 200 347
+ERROR 2025-04-03 16:14:36,379 views 20432 5296 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:14:36,379 basehttp 20432 5296 "GET /api/fans/?t=1743677076265 HTTP/1.1" 200 347
+ERROR 2025-04-03 16:14:39,386 views 20432 21128 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:14:39,386 basehttp 20432 21128 "GET /api/fans/?t=1743677079278 HTTP/1.1" 200 347
+ERROR 2025-04-03 16:14:45,380 views 20432 11704 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:14:45,380 basehttp 20432 11704 "GET /api/fans/?t=1743677085266 HTTP/1.1" 200 345
+ERROR 2025-04-03 16:14:50,386 views 20432 15808 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:14:50,386 basehttp 20432 15808 "GET /api/fans/?t=1743677090277 HTTP/1.1" 200 347
+ERROR 2025-04-03 16:14:54,754 views 20432 2868 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:14:54,761 basehttp 20432 2868 "GET /api/fans/?t=1743677094600 HTTP/1.1" 200 347
+INFO 2025-04-03 16:14:54,922 basehttp 20432 20052 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:14:54,922 basehttp 20432 20980 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:14:55,202 basehttp 20432 3844 "GET /api/dashboard/ HTTP/1.1" 200 613
+ERROR 2025-04-03 16:14:59,392 views 20432 13264 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:14:59,399 basehttp 20432 13264 "GET /api/fans/?t=1743677099285 HTTP/1.1" 200 347
+ERROR 2025-04-03 16:15:04,394 views 20432 16968 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:15:04,396 basehttp 20432 16968 "GET /api/fans/?t=1743677104286 HTTP/1.1" 200 347
+ERROR 2025-04-03 16:15:09,394 views 20432 11008 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:15:09,396 basehttp 20432 11008 "GET /api/fans/?t=1743677109282 HTTP/1.1" 200 347
+INFO 2025-04-03 16:15:10,748 basehttp 20432 24192 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:15:10,753 basehttp 20432 5212 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:15:10,873 basehttp 20432 11100 "GET /api/dashboard/ HTTP/1.1" 200 613
+ERROR 2025-04-03 16:15:14,397 views 20432 18792 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:15:14,397 basehttp 20432 18792 "GET /api/fans/?t=1743677114290 HTTP/1.1" 200 347
+ERROR 2025-04-03 16:15:16,164 views 20432 23924 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:15:16,258 basehttp 20432 23924 "GET /api/fans/ HTTP/1.1" 200 11189
+ERROR 2025-04-03 16:15:20,381 views 20432 19472 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:15:20,382 basehttp 20432 19472 "GET /api/fans/?t=1743677120274 HTTP/1.1" 200 347
+ERROR 2025-04-03 16:15:20,404 views 20432 23924 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:15:20,411 basehttp 20432 23924 "GET /api/fans/ HTTP/1.1" 200 11189
+ERROR 2025-04-03 16:15:21,910 views 20432 23924 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:15:21,919 basehttp 20432 23924 "GET /api/fans/ HTTP/1.1" 200 11189
+ERROR 2025-04-03 16:15:24,818 views 20432 21516 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:15:24,820 basehttp 20432 21516 "GET /api/fans/?t=1743677124709 HTTP/1.1" 200 347
+ERROR 2025-04-03 16:15:29,393 views 20432 6456 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:15:29,393 basehttp 20432 6456 "GET /api/fans/?t=1743677129284 HTTP/1.1" 200 347
+ERROR 2025-04-03 16:15:34,391 views 20432 9776 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:15:34,391 basehttp 20432 9776 "GET /api/fans/?t=1743677134280 HTTP/1.1" 200 347
+INFO 2025-04-03 16:15:35,522 basehttp 20432 19040 "GET /api/metrics/?page=1&start_date=2025-03-27T10:45:35.140Z HTTP/1.1" 200 4488
+INFO 2025-04-03 16:15:35,526 basehttp 20432 18544 "GET /api/metrics/?page=1&start_date=2025-03-27T10:45:35.139Z HTTP/1.1" 200 4488
+INFO 2025-04-03 16:15:35,540 basehttp 20432 4688 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 945
+INFO 2025-04-03 16:15:35,559 basehttp 20432 18544 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 945
+INFO 2025-04-03 16:15:36,291 basehttp 20432 18544 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:15:36,298 basehttp 20432 18544 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:15:38,252 basehttp 20432 4688 "GET /api/system-info/ HTTP/1.1" 200 1673
+INFO 2025-04-03 16:15:39,905 basehttp 20432 4688 "GET /api/system-info/ HTTP/1.1" 200 1672
+INFO 2025-04-03 16:16:46,634 basehttp 20432 1432 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:16:46,643 basehttp 20432 1432 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:16:48,414 basehttp 20432 21648 "GET /api/system-info/ HTTP/1.1" 200 1675
+INFO 2025-04-03 16:16:50,050 basehttp 20432 21648 "GET /api/system-info/ HTTP/1.1" 200 1674
+INFO 2025-04-03 16:17:06,667 basehttp 20432 2796 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:17:06,674 basehttp 20432 2796 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:17:08,660 basehttp 20432 23156 "GET /api/system-info/ HTTP/1.1" 200 1675
+INFO 2025-04-03 16:17:10,532 basehttp 20432 23156 "GET /api/system-info/ HTTP/1.1" 200 1678
+INFO 2025-04-03 16:18:32,932 basehttp 20432 19560 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:18:34,669 basehttp 20432 19380 "GET /api/system-info/ HTTP/1.1" 200 1677
+INFO 2025-04-03 16:21:39,497 basehttp 20432 9412 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:21:39,527 basehttp 20432 9412 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:21:42,035 basehttp 20432 19696 "GET /api/system-info/ HTTP/1.1" 200 1675
+INFO 2025-04-03 16:21:43,721 basehttp 20432 19696 "GET /api/system-info/ HTTP/1.1" 200 1675
+INFO 2025-04-03 16:24:31,087 basehttp 20432 6268 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:24:33,589 basehttp 20432 20968 "GET /api/system-info/ HTTP/1.1" 200 1676
+INFO 2025-04-03 16:25:36,609 basehttp 20432 20920 "GET /api/metrics/?page=1&start_date=2025-03-27T10:55:36.079Z HTTP/1.1" 200 4488
+INFO 2025-04-03 16:25:36,615 basehttp 20432 276 "GET /api/metrics/?page=1&start_date=2025-03-27T10:55:36.082Z HTTP/1.1" 200 4488
+INFO 2025-04-03 16:25:36,627 basehttp 20432 11128 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 945
+INFO 2025-04-03 16:25:36,652 basehttp 20432 11128 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 945
+ERROR 2025-04-03 16:27:28,267 views 20432 24288 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+ERROR 2025-04-03 16:27:28,267 views 20432 15792 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:27:28,267 basehttp 20432 24288 "GET /api/fans/?t=1743677848103 HTTP/1.1" 200 345
+INFO 2025-04-03 16:27:28,267 basehttp 20432 15792 "GET /api/fans/?t=1743677848104 HTTP/1.1" 200 341
+INFO 2025-04-03 16:27:28,419 basehttp 20432 17756 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:27:28,473 basehttp 20432 17756 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:27:31,000 basehttp 20432 16192 "GET /api/system-info/ HTTP/1.1" 200 1675
+INFO 2025-04-03 16:27:32,627 basehttp 20432 16192 "GET /api/system-info/ HTTP/1.1" 200 1675
+ERROR 2025-04-03 16:27:33,226 views 20432 22004 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:27:33,227 basehttp 20432 22004 "GET /api/fans/?t=1743677853119 HTTP/1.1" 200 347
+ERROR 2025-04-03 16:27:38,212 views 20432 22972 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:27:38,214 basehttp 20432 22972 "GET /api/fans/?t=1743677858105 HTTP/1.1" 200 347
+ERROR 2025-04-03 16:27:43,219 views 20432 5908 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:27:43,222 basehttp 20432 5908 "GET /api/fans/?t=1743677863109 HTTP/1.1" 200 347
+ERROR 2025-04-03 16:27:48,217 views 20432 22480 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:27:48,219 basehttp 20432 22480 "GET /api/fans/?t=1743677868107 HTTP/1.1" 200 347
+ERROR 2025-04-03 16:27:53,432 views 20432 15764 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:27:53,434 basehttp 20432 15764 "GET /api/fans/?t=1743677873269 HTTP/1.1" 200 347
+ERROR 2025-04-03 16:27:58,376 views 20432 23220 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:27:58,379 basehttp 20432 23220 "GET /api/fans/?t=1743677878267 HTTP/1.1" 200 341
+ERROR 2025-04-03 16:28:03,388 views 20432 11060 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:28:03,389 basehttp 20432 11060 "GET /api/fans/?t=1743677883280 HTTP/1.1" 200 347
+ERROR 2025-04-03 16:28:08,377 views 20432 24560 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:28:08,379 basehttp 20432 24560 "GET /api/fans/?t=1743677888271 HTTP/1.1" 200 345
+ERROR 2025-04-03 16:28:13,211 views 20432 21488 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:28:13,211 basehttp 20432 21488 "GET /api/fans/?t=1743677893107 HTTP/1.1" 200 347
+ERROR 2025-04-03 16:28:18,211 views 20432 22008 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:28:18,213 basehttp 20432 22008 "GET /api/fans/?t=1743677898105 HTTP/1.1" 200 347
+INFO 2025-04-03 16:28:19,594 basehttp 20432 19488 "GET /api/metrics/?page=1&start_date=2025-03-27T10:58:19.205Z HTTP/1.1" 200 4488
+INFO 2025-04-03 16:28:19,594 basehttp 20432 17736 "GET /api/metrics/?page=1&start_date=2025-03-27T10:58:19.206Z HTTP/1.1" 200 4488
+INFO 2025-04-03 16:28:19,602 basehttp 20432 20980 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 945
+INFO 2025-04-03 16:28:19,627 basehttp 20432 20980 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 945
+INFO 2025-04-03 16:28:20,740 basehttp 20432 17736 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:28:20,740 basehttp 20432 20980 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:28:20,755 basehttp 20432 17736 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:28:20,755 basehttp 20432 20980 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+ERROR 2025-04-03 16:28:20,775 views 20432 8876 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:28:20,777 basehttp 20432 8876 "GET /api/fans/?t=1743677900669 HTTP/1.1" 200 347
+ERROR 2025-04-03 16:28:20,777 views 20432 12852 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:28:20,779 basehttp 20432 12852 "GET /api/fans/?t=1743677900670 HTTP/1.1" 200 347
+INFO 2025-04-03 16:28:20,849 basehttp 20432 19488 "GET /api/dashboard/ HTTP/1.1" 200 614
+INFO 2025-04-03 16:28:20,971 basehttp 20432 19488 "GET /api/dashboard/ HTTP/1.1" 200 614
+INFO 2025-04-03 16:28:25,006 basehttp 20432 23892 "GET /api/metrics/statistics/?days=90 HTTP/1.1" 200 945
+INFO 2025-04-03 16:28:25,019 basehttp 20432 23892 "GET /api/metrics/statistics/?days=90 HTTP/1.1" 200 945
+INFO 2025-04-03 16:28:30,935 basehttp 20432 23892 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:28:30,951 basehttp 20432 23892 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 16:28:30,956 basehttp 20432 23892 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 16:28:30,965 basehttp 20432 23892 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+ERROR 2025-04-03 16:28:30,974 views 20432 22356 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:28:30,974 basehttp 20432 22356 "GET /api/fans/?t=1743677910866 HTTP/1.1" 200 347
+ERROR 2025-04-03 16:28:30,979 views 20432 6632 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:28:30,984 basehttp 20432 6632 "GET /api/fans/?t=1743677910867 HTTP/1.1" 200 347
+INFO 2025-04-03 16:28:31,037 basehttp 20432 20316 "GET /api/dashboard/ HTTP/1.1" 200 614
+INFO 2025-04-03 16:28:31,179 basehttp 20432 20316 "GET /api/dashboard/ HTTP/1.1" 200 614
+ERROR 2025-04-03 16:28:35,991 views 20432 23184 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 16:28:35,991 basehttp 20432 23184 "GET /api/fans/?t=1743677915883 HTTP/1.1" 200 345
