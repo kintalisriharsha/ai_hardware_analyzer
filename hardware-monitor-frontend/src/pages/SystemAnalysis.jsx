@@ -1,4 +1,10 @@
 /* eslint-disable no-unused-vars */
+/**
+ * eslint-disable no-unused-vars
+ *
+ * @format
+ */
+
 import { useState, useEffect } from "react";
 import {
   Container,
@@ -95,7 +101,8 @@ const extractDiskGB = (sizeStr) => {
 // Function to calculate fan progress percentage
 const calculateFanProgress = (speed) => {
   if (!speed) return 0;
-  const rpm = typeof speed === "number" ? speed : parseInt(speed.replace(/[^\d]/g, ""));
+  const rpm =
+    typeof speed === "number" ? speed : parseInt(speed.replace(/[^\d]/g, ""));
   // Assuming max RPM is 3000
   const maxRpm = 3000;
   return Math.min(100, (rpm / maxRpm) * 100);
@@ -104,7 +111,8 @@ const calculateFanProgress = (speed) => {
 // Function to get fan color based on RPM
 const getFanColor = (speed) => {
   if (!speed) return "gray";
-  const rpm = typeof speed === "number" ? speed : parseInt(speed.replace(/[^\d]/g, ""));
+  const rpm =
+    typeof speed === "number" ? speed : parseInt(speed.replace(/[^\d]/g, ""));
   if (rpm === 0) return "red";
   if (rpm < 800) return "orange";
   if (rpm > 2500) return "yellow";
@@ -123,12 +131,13 @@ const SystemAnalysis = () => {
     try {
       // Add cache-busting timestamp
       const timestamp = new Date().getTime();
-      const response = await fetch(`/api/fans/?t=${timestamp}`);
-      
+      // Use the correct endpoint
+      const response = await fetch(`/api/fan-data/?t=${timestamp}`);
+
       if (!response.ok) {
         throw new Error(`Server error: ${response.status}`);
       }
-      
+
       const data = await response.json();
       if (Array.isArray(data) && data.length > 0) {
         setFanData(data);
@@ -141,10 +150,7 @@ const SystemAnalysis = () => {
   const fetchData = async () => {
     setLoading(true);
     try {
-      await Promise.all([
-        fetchSystemData(),
-        fetchFanData()
-      ]);
+      await Promise.all([fetchSystemData(), fetchFanData()]);
     } catch (error) {
       console.error("Error fetching data:", error);
     } finally {
@@ -252,7 +258,7 @@ const SystemAnalysis = () => {
 
   useEffect(() => {
     fetchData();
-    
+
     // Set up polling for fan data every 5 seconds
     const interval = setInterval(fetchFanData, 5000);
     return () => clearInterval(interval);
@@ -530,7 +536,9 @@ const SystemAnalysis = () => {
                                 ]}
                                 label={
                                   <Text size="xs" align="center" weight={700}>
-                                    {typeof fan.value === 'number' ? fan.value : parseInt(fan.speed)}
+                                    {typeof fan.value === "number"
+                                      ? fan.value
+                                      : parseInt(fan.speed)}
                                   </Text>
                                 }
                               />
@@ -776,13 +784,15 @@ const SystemAnalysis = () => {
                   </List.Item>
                 )}
 
-                {fanData.some(fan => 
-                   fan.status === "Inactive" || 
-                   (fan.value && fan.value < 800 && fan.name.includes("CPU"))
+                {fanData.some(
+                  (fan) =>
+                    fan.status === "Inactive" ||
+                    (fan.value && fan.value < 800 && fan.name.includes("CPU"))
                 ) && (
                   <List.Item>
                     <Text>
-                      Check your cooling system. Some fans are running at suboptimal speeds.
+                      Check your cooling system. Some fans are running at
+                      suboptimal speeds.
                     </Text>
                   </List.Item>
                 )}
@@ -831,6 +841,160 @@ const SystemAnalysis = () => {
                   </Text>
                 </List.Item>
               </List>
+            )}
+          </Card>
+        </Grid.Col>
+
+        {/* Cooling System Section */}
+        <Grid.Col span={12}>
+          <Card shadow="sm" withBorder>
+            <Group position="apart" mb="md">
+              <Title order={4}>Cooling System Analysis</Title>
+              <IconWind size={24} />
+            </Group>
+
+            {loading ? (
+              <Stack spacing="sm">
+                <Skeleton height={20} radius="sm" />
+                <Skeleton height={20} radius="sm" />
+                <Skeleton height={20} radius="sm" />
+              </Stack>
+            ) : (
+              <>
+                <Grid>
+                  {fanData.length > 0 ? (
+                    <>
+                      {/* Fan performance summary */}
+                      <Grid.Col span={12} mb="md">
+                        <Group position="apart">
+                          <Text weight={500}>Overall Cooling Status:</Text>
+                          <Badge 
+                            color={
+                              fanData.some(fan => fan.status === "Inactive" || 
+                                (fan.value && fan.value < 800 && fan.name.includes("CPU"))) 
+                                ? "orange" 
+                                : "green"
+                            } 
+                            size="lg"
+                          >
+                            {fanData.some(fan => fan.status === "Inactive" || 
+                              (fan.value && fan.value < 800 && fan.name.includes("CPU")))
+                              ? "Needs Attention" 
+                              : "Optimal"}
+                          </Badge>
+                        </Group>
+                      </Grid.Col>
+                      
+                      {/* Individual fan cards */}
+                      {fanData.map((fan, index) => (
+                        <Grid.Col key={index} span={12} sm={6} md={4}>
+                          <Card shadow="xs" p="md" radius="md" withBorder>
+                            <Text weight={500} align="center" mb="md">{fan.name}</Text>
+                            
+                            <RingProgress
+                              sections={[
+                                { 
+                                  value: calculateFanProgress(fan.value), 
+                                  color: getFanColor(fan.value)
+                                }
+                              ]}
+                              label={
+                                <Stack spacing={0} align="center">
+                                  <Text size="xl" weight={700}>
+                                    {typeof fan.value === 'number' ? fan.value : parseInt(fan.speed)}
+                                  </Text>
+                                  <Text size="xs" color="dimmed">RPM</Text>
+                                </Stack>
+                              }
+                              size={120}
+                              thickness={12}
+                              roundCaps
+                              mb="md"
+                              mx="auto"
+                            />
+                            
+                            <Group position="apart" mt="md">
+                              <Text>Status:</Text>
+                              <Badge 
+                                color={fan.status === "Active" ? "green" : "red"}
+                              >
+                                {fan.status}
+                              </Badge>
+                            </Group>
+                            
+                            {fan.temperature && (
+                              <Group position="apart" mt="xs">
+                                <Text>Temperature:</Text>
+                                <Badge 
+                                  color={
+                                    fan.temperature > 75 ? "red" : 
+                                    fan.temperature > 65 ? "orange" : 
+                                    "green"
+                                  }
+                                >
+                                  {fan.temperature}°C
+                                </Badge>
+                              </Group>
+                            )}
+                            
+                            {/* Fan analysis */}
+                            <Text size="sm" color="dimmed" mt="md">
+                              {fan.value < 800 && fan.name.includes("CPU") ? 
+                                "CPU fan is running at low speed, system might overheat under load." :
+                                fan.value > 2500 ? 
+                                  "Fan is running at high speed, which could indicate high system load or temperature." :
+                                  "Fan is operating at an optimal speed for current system load."}
+                            </Text>
+                          </Card>
+                        </Grid.Col>
+                      ))}
+                    </>
+                  ) : (
+                    <Grid.Col span={12}>
+                      <Text align="center" color="dimmed">
+                        No fan data available. Your system may not support fan speed reporting.
+                      </Text>
+                    </Grid.Col>
+                  )}
+                </Grid>
+                
+                {/* Cooling recommendations */}
+                <Divider my="lg" label="Cooling Recommendations" labelPosition="center" />
+                
+                <List spacing="sm">
+                  {fanData.some(fan => fan.value < 800) && (
+                    <List.Item>
+                      <Text>
+                        Some fans are running at low speeds. Check for dust buildup or fan obstructions.
+                      </Text>
+                    </List.Item>
+                  )}
+                  
+                  {fanData.some(fan => fan.status === "Inactive") && (
+                    <List.Item>
+                      <Text>
+                        You have inactive fans. Check all fan connections and consider replacement.
+                      </Text>
+                    </List.Item>
+                  )}
+                  
+                  {fanData.some(fan => fan.value > 2500) && (
+                    <List.Item>
+                      <Text>
+                        Some fans are running at high speeds. Your system may be under heavy load or experiencing high temperatures.
+                      </Text>
+                    </List.Item>
+                  )}
+                  
+                  {fanData.length > 0 && (
+                    <List.Item>
+                      <Text>
+                        Regular cleaning of fans and heatsinks is recommended every 3-6 months to maintain optimal cooling performance.
+                      </Text>
+                    </List.Item>
+                  )}
+                </List>
+              </>
             )}
           </Card>
         </Grid.Col>

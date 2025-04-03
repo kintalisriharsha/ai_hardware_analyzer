@@ -2379,3 +2379,136 @@ INFO 2025-04-03 16:28:31,037 basehttp 20432 20316 "GET /api/dashboard/ HTTP/1.1"
 INFO 2025-04-03 16:28:31,179 basehttp 20432 20316 "GET /api/dashboard/ HTTP/1.1" 200 614
 ERROR 2025-04-03 16:28:35,991 views 20432 23184 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
 INFO 2025-04-03 16:28:35,991 basehttp 20432 23184 "GET /api/fans/?t=1743677915883 HTTP/1.1" 200 345
+INFO 2025-04-03 17:19:55,908 autoreload 19564 9912 Watching for file changes with StatReloader
+ERROR 2025-04-03 17:21:02,515 views 19564 6916 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+ERROR 2025-04-03 17:21:02,518 views 19564 23876 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:21:02,526 basehttp 19564 6916 "GET /api/fans/?t=1743681061995 HTTP/1.1" 200 347
+INFO 2025-04-03 17:21:02,527 basehttp 19564 23876 "GET /api/fans/?t=1743681062008 HTTP/1.1" 200 347
+INFO 2025-04-03 17:21:02,833 basehttp 19564 18792 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 17:21:02,849 basehttp 19564 19364 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 17:21:02,883 basehttp 19564 18792 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 17:21:02,943 basehttp 19564 19364 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 17:21:03,876 basehttp 19564 23468 "GET /api/dashboard/ HTTP/1.1" 200 612
+INFO 2025-04-03 17:21:04,044 basehttp 19564 23468 "GET /api/dashboard/ HTTP/1.1" 200 611
+ERROR 2025-04-03 17:21:07,646 views 19564 10236 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:21:07,650 basehttp 19564 10236 "GET /api/fans/?t=1743681067343 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:21:12,386 views 19564 7728 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:21:12,391 basehttp 19564 7728 "GET /api/fans/?t=1743681072270 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:21:17,386 views 19564 876 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:21:17,389 basehttp 19564 876 "GET /api/fans/?t=1743681077274 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:21:22,406 views 19564 5684 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:21:22,410 basehttp 19564 5684 "GET /api/fans/?t=1743681082280 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:21:27,384 views 19564 17248 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:21:27,387 basehttp 19564 17248 "GET /api/fans/?t=1743681087268 HTTP/1.1" 200 347
+INFO 2025-04-03 17:21:32,307 basehttp 19564 23468 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+ERROR 2025-04-03 17:21:32,401 views 19564 23088 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:21:32,407 basehttp 19564 23088 "GET /api/fans/?t=1743681092278 HTTP/1.1" 200 347
+INFO 2025-04-03 17:21:32,469 basehttp 19564 23468 "GET /api/dashboard/ HTTP/1.1" 200 611
+INFO 2025-04-03 17:21:32,485 basehttp 19564 23468 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+ERROR 2025-04-03 17:21:37,406 views 19564 4000 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:21:37,415 basehttp 19564 4000 "GET /api/fans/?t=1743681097276 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:21:42,393 views 19564 5472 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:21:42,412 basehttp 19564 5472 "GET /api/fans/?t=1743681102267 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:21:47,387 views 19564 16544 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:21:47,390 basehttp 19564 16544 "GET /api/fans/?t=1743681107271 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:21:52,380 views 19564 23096 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:21:52,385 basehttp 19564 23096 "GET /api/fans/?t=1743681112268 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:21:57,381 views 19564 22776 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:21:57,387 basehttp 19564 22776 "GET /api/fans/?t=1743681117268 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:22:02,388 views 19564 6632 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:22:02,392 basehttp 19564 6632 "GET /api/fans/?t=1743681122273 HTTP/1.1" 200 347
+INFO 2025-04-03 17:22:02,651 basehttp 19564 18888 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 17:22:02,658 basehttp 19564 15968 "GET /api/issues/unresolved/ HTTP/1.1" 200 52
+INFO 2025-04-03 17:22:02,796 basehttp 19564 3392 "GET /api/dashboard/ HTTP/1.1" 200 611
+ERROR 2025-04-03 17:22:09,859 views 19564 4648 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:22:09,863 basehttp 19564 4648 "GET /api/fans/?t=1743681129612 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:22:12,142 views 19564 21268 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:22:12,145 basehttp 19564 21268 "GET /api/fans/?t=1743681132022 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:22:17,135 views 19564 23736 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:22:17,139 basehttp 19564 23736 "GET /api/fans/?t=1743681137020 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:22:22,222 views 19564 16408 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:22:22,236 basehttp 19564 16408 "GET /api/fans/?t=1743681142010 HTTP/1.1" 200 347
+INFO 2025-04-03 17:22:27,458 basehttp 19564 3808 "GET /api/metrics/?page=1&start_date=2025-03-27T11:52:26.976Z HTTP/1.1" 200 4488
+INFO 2025-04-03 17:22:27,462 basehttp 19564 18016 "GET /api/metrics/?page=1&start_date=2025-03-27T11:52:26.980Z HTTP/1.1" 200 4488
+INFO 2025-04-03 17:22:27,527 basehttp 19564 21840 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 945
+INFO 2025-04-03 17:22:27,602 basehttp 19564 21840 "GET /api/metrics/statistics/?days=7 HTTP/1.1" 200 945
+ERROR 2025-04-03 17:22:35,528 views 19564 21712 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+ERROR 2025-04-03 17:22:35,533 views 19564 5452 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:22:35,533 basehttp 19564 21712 "GET /api/fans/?t=1743681155409 HTTP/1.1" 200 347
+INFO 2025-04-03 17:22:35,571 basehttp 19564 5452 "GET /api/fans/?t=1743681155411 HTTP/1.1" 200 347
+INFO 2025-04-03 17:22:35,748 basehttp 19564 21248 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 17:22:35,772 basehttp 19564 21248 "GET /api/metrics/latest/ HTTP/1.1" 200 313
+INFO 2025-04-03 17:22:40,282 basehttp 19564 8460 "GET /api/system-info/ HTTP/1.1" 200 1672
+ERROR 2025-04-03 17:22:40,612 views 19564 12816 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:22:40,622 basehttp 19564 12816 "GET /api/fans/?t=1743681160427 HTTP/1.1" 200 347
+INFO 2025-04-03 17:22:42,343 basehttp 19564 8460 "GET /api/system-info/ HTTP/1.1" 200 1672
+ERROR 2025-04-03 17:22:45,542 views 19564 2364 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:22:45,546 basehttp 19564 2364 "GET /api/fans/?t=1743681165426 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:22:51,531 views 19564 5980 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:22:51,538 basehttp 19564 5980 "GET /api/fans/?t=1743681171414 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:22:56,390 views 19564 16572 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:22:56,395 basehttp 19564 16572 "GET /api/fans/?t=1743681176272 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:23:01,377 views 19564 18112 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:23:01,380 basehttp 19564 18112 "GET /api/fans/?t=1743681181266 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:23:06,402 views 19564 20320 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:23:06,408 basehttp 19564 20320 "GET /api/fans/?t=1743681186279 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:23:11,391 views 19564 21112 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:23:11,394 basehttp 19564 21112 "GET /api/fans/?t=1743681191275 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:23:16,396 views 19564 15140 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:23:16,399 basehttp 19564 15140 "GET /api/fans/?t=1743681196276 HTTP/1.1" 200 345
+ERROR 2025-04-03 17:23:21,395 views 19564 15968 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:23:21,400 basehttp 19564 15968 "GET /api/fans/?t=1743681201281 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:23:26,399 views 19564 20984 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:23:26,407 basehttp 19564 20984 "GET /api/fans/?t=1743681206282 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:23:31,384 views 19564 11696 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:23:31,394 basehttp 19564 11696 "GET /api/fans/?t=1743681211269 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:23:36,397 views 19564 7264 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:23:36,403 basehttp 19564 7264 "GET /api/fans/?t=1743681216280 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:23:41,402 views 19564 1692 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:23:41,406 basehttp 19564 1692 "GET /api/fans/?t=1743681221282 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:23:46,385 views 19564 2032 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:23:46,388 basehttp 19564 2032 "GET /api/fans/?t=1743681226269 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:23:55,526 views 19564 3268 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:23:55,529 basehttp 19564 3268 "GET /api/fans/?t=1743681235346 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:24:27,915 views 19564 5916 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:24:27,922 basehttp 19564 5916 "GET /api/fans/?t=1743681267708 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:24:31,388 views 19564 15272 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:24:31,392 basehttp 19564 15272 "GET /api/fans/?t=1743681271271 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:24:36,393 views 19564 21312 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:24:36,401 basehttp 19564 21312 "GET /api/fans/?t=1743681276271 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:24:41,404 views 19564 23900 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:24:41,406 basehttp 19564 23900 "GET /api/fans/?t=1743681281286 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:24:46,385 views 19564 12516 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:24:46,390 basehttp 19564 12516 "GET /api/fans/?t=1743681286270 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:24:51,386 views 19564 22188 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:24:51,389 basehttp 19564 22188 "GET /api/fans/?t=1743681291272 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:24:56,405 views 19564 2584 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:24:56,409 basehttp 19564 2584 "GET /api/fans/?t=1743681296280 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:25:01,396 views 19564 20508 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:25:01,399 basehttp 19564 20508 "GET /api/fans/?t=1743681301280 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:25:06,387 views 19564 7148 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:25:06,391 basehttp 19564 7148 "GET /api/fans/?t=1743681306267 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:25:11,390 views 19564 24404 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:25:11,393 basehttp 19564 24404 "GET /api/fans/?t=1743681311277 HTTP/1.1" 200 341
+ERROR 2025-04-03 17:25:16,385 views 19564 2028 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:25:16,389 basehttp 19564 2028 "GET /api/fans/?t=1743681316266 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:25:21,389 views 19564 11040 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:25:21,393 basehttp 19564 11040 "GET /api/fans/?t=1743681321273 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:25:26,398 views 19564 16128 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:25:26,401 basehttp 19564 16128 "GET /api/fans/?t=1743681326281 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:25:55,395 views 19564 16848 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:25:55,400 basehttp 19564 16848 "GET /api/fans/?t=1743681355276 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:26:55,404 views 19564 6288 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:26:55,408 basehttp 19564 6288 "GET /api/fans/?t=1743681415282 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:27:55,400 views 19564 21088 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:27:55,404 basehttp 19564 21088 "GET /api/fans/?t=1743681475274 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:28:55,396 views 19564 20668 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:28:55,400 basehttp 19564 20668 "GET /api/fans/?t=1743681535275 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:29:55,484 views 19564 23852 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:29:55,487 basehttp 19564 23852 "GET /api/fans/?t=1743681595315 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:30:55,397 views 19564 19096 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:30:55,399 basehttp 19564 19096 "GET /api/fans/?t=1743681655276 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:31:55,386 views 19564 17280 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:31:55,391 basehttp 19564 17280 "GET /api/fans/?t=1743681715269 HTTP/1.1" 200 347
+ERROR 2025-04-03 17:32:53,254 views 19564 22856 WMI detection failed: <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+INFO 2025-04-03 17:32:53,257 basehttp 19564 22856 "GET /api/fans/?t=1743681773100 HTTP/1.1" 200 347

@@ -1,6 +1,7 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from . import views
+from .views import fan_data
 
 router = DefaultRouter()
 router.register(r'metrics', views.SystemMetricViewSet)
@@ -14,4 +15,6 @@ urlpatterns = [
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('system-info/', views.system_info, name='system_info'),
     path('fans/', views.fan_data, name='fan-data'), 
+    path('api/fan-data/', fan_data, name='fan_data'),
+    path('api/fans/', fan_data, name='fans'),
 ]

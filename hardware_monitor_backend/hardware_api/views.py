@@ -456,11 +456,18 @@ def fan_data(request):
         is_laptop = False
         if platform.system() == "Windows":
             try:
+                # Initialize COM for this thread
+                import pythoncom
+                pythoncom.CoInitialize()
+                
                 import wmi
                 c = wmi.WMI()
                 chassis_types = [chassis.ChassisTypes for chassis in c.Win32_SystemEnclosure()]
                 chassis_types = [item for sublist in chassis_types for item in sublist]
                 is_laptop = any(t in [8, 9, 10, 11, 12, 13, 14, 18, 21] for t in chassis_types)
+                
+                # Clean up COM when done
+                pythoncom.CoUninitialize()
             except Exception as e:
                 logging.error(f"WMI detection failed: {str(e)}")
                 # Default to desktop if WMI fails
@@ -933,8 +940,6 @@ def get_fan_info_linux():
 
 def simulate_fan_info():
     """Provide simulated fan data that varies each call."""
-    import random
-    import psutil
     
     # Get current CPU usage for more realistic simulation
     cpu_usage = psutil.cpu_percent(interval=0.1)
@@ -943,11 +948,18 @@ def simulate_fan_info():
     is_laptop = False
     if platform.system() == "Windows":
         try:
+            # Initialize COM for this thread
+            import pythoncom
+            pythoncom.CoInitialize()
+            
             import wmi
             c = wmi.WMI()
             chassis_types = [chassis.ChassisTypes for chassis in c.Win32_SystemEnclosure()]
             chassis_types = [item for sublist in chassis_types for item in sublist]
             is_laptop = any(t in [8, 9, 10, 11, 12, 13, 14, 18, 21] for t in chassis_types)
+            
+            # Clean up COM when done
+            pythoncom.CoUninitialize()
         except Exception as e:
             logging.error(f"WMI error in simulate_fan_info: {str(e)}")
             is_laptop = False
